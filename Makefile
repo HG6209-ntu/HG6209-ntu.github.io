@@ -43,7 +43,8 @@ $(BRANCH)/static/%: static/%
 
 $(BRANCH):
 	git clone "$(REPO)" "$(BRANCH)"
-	(cd $(BRANCH) && git checkout $(BRANCH)) || (cd $(BRANCH) && git checkout --orphan $(BRANCH) && git rm -rf .)
+	# (cd $(BRANCH) && git checkout $(BRANCH)) || ()
+	cd $(BRANCH) && git checkout --orphan $(BRANCH) && git rm -rf .
 	mkdir -p $(BRANCH)/css
 	mkdir -p $(BRANCH)/static
 
