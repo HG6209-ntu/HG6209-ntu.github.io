@@ -51,6 +51,8 @@ serve:
 	cd $(BRANCH) && python3 -m http.server
 
 deploy:
+	git add . && \
+	git commit -m "Updated @$$(date)" && \
 	git checkout $(BRANCH) && \
   git restore --source master gh-pages/* && \
   rm -r css && \
