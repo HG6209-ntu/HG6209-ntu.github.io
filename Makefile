@@ -37,7 +37,7 @@ $(BRANCH)/css/%.css: css/%.scss
 	sass "$<" "$@"
 
 $(BRANCH)/static/%: static/%
-	mkdir -p "$@"
+	mkdir -p $(BRANCH)/static
 	# && cp "$<" "$@"
 	cp "$<" "$@"
 
