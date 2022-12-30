@@ -51,17 +51,16 @@ serve:
 	cd $(BRANCH) && python3 -m http.server
 
 deploy:
-	# cd $(BRANCH) && \
-  git checkout $(BRANCH)
-  git restore --source master gh-pages/*
-  rm -r css
-  rm -r static
-  mv gh-pages/* ./
-  rm -r gh-pages
-  git add .
-  git commit --edit --message="Publish @$$(date)"
+	git checkout $(BRANCH) && \
+  git restore --source master gh-pages/* && \
+  rm -r css && \
+  rm -r static && \
+  mv gh-pages/* ./ && \
+  rm -r gh-pages && \
+  git add . && \
+  git commit --edit --message="Publish @$$(date)" && \
 	# cd $(BRANCH)
-	git push origin $(BRANCH)
+	git push origin $(BRANCH) && \
 	git checkout master
 
 clean:
