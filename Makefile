@@ -57,6 +57,7 @@ deploy:
 	   git commit --edit --message="Publish @$$(date)"
 	cd $(BRANCH) && \
 	   git push origin $(BRANCH)
+		 git checkout master
 
 clean:
 	rm -rf "$(BRANCH)"
