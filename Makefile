@@ -24,11 +24,6 @@ STATICFILES = $(addprefix $(BRANCH)/,$(wildcard static/*))
 all: init clean html deploy
 
 init:
-$(BRANCH):
-	git clone "$(REPO)" "$(BRANCH)"
-	(cd $(BRANCH) && git checkout $(BRANCH)) || (cd $(BRANCH) && git checkout --orphan $(BRANCH) && git rm -rf .)
-	mkdir -p $(BRANCH)/css
-	mkdir -p $(BRANCH)/static
 
 html: $(CSSFILES) $(STATICFILES) $(INDEX) $(TARGETS)
 
@@ -42,10 +37,15 @@ $(BRANCH)/css/%.css: css/%.scss
 	sass "$<" "$@"
 
 $(BRANCH)/static/%: static/%
-	# mkdir -p $(BRANCH)/static
+	mkdir -p $(BRANCH)/static
 	# && cp "$<" "$@"
 	cp "$<" "$@"
 
+$(BRANCH):
+	git clone "$(REPO)" "$(BRANCH)"
+	(cd $(BRANCH) && git checkout $(BRANCH)) || (cd $(BRANCH) && git checkout --orphan $(BRANCH) && git rm -rf .)
+	mkdir -p $(BRANCH)/css
+	mkdir -p $(BRANCH)/static
 
 serve:
 	cd $(BRANCH) && python3 -m http.server
