@@ -53,7 +53,7 @@ serve:
 deploy:
 	cd $(BRANCH) && \
 	   git checkout $(BRANCH) && \
-		 git restore --source master gh-pages && \
+		 git restore --source master gh-pages/* && \
 		 rm -r css && \
 		 rm -r static && \
 		 mv gh-pages/* ./ && \
