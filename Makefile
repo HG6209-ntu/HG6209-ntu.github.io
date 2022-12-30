@@ -23,6 +23,8 @@ STATICFILES = $(addprefix $(BRANCH)/,$(wildcard static/*))
 
 all: init clean html deploy
 
+init:
+
 html: $(CSSFILES) $(STATICFILES) $(INDEX) $(TARGETS)
 
 $(INDEX): index.md templates/index.html5
@@ -35,6 +37,8 @@ $(BRANCH)/css/%.css: css/%.scss
 	sass "$<" "$@"
 
 $(BRANCH)/static/%: static/%
+	mkdir -p "$@"
+	# && cp "$<" "$@"
 	cp "$<" "$@"
 
 $(BRANCH):

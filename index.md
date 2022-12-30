@@ -1,8 +1,8 @@
 ---
 title: Language and the Computer
 instructor:
-  - name: Michael Wayne Goodman
-    email: michaelgoodman@ntu.edu.sg
+  - name: Hiram Ring
+    email: hiram.ring@ntu.edu.sg
 date: "Wednesdays, 09:30--12:30"
 location: >
   [LHS-TR+52](https://maps.ntu.edu.sg/maps#q:Tutorial%20Room%20+%2052%20-%20LHS) (Hive Level 2)
