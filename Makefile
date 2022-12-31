@@ -21,7 +21,7 @@ CSSFILES = $(addprefix $(BRANCH)/,$(SASSFILES:%.scss=%.css))
 
 STATICFILES = $(addprefix $(BRANCH)/,$(wildcard static/*))
 
-all: init clean html deploy clean
+all: init clean html deploy
 
 init:
 
@@ -63,6 +63,7 @@ deploy:
   git commit --edit --message="Publish @$$(date)" && \
 	git push -f origin $(BRANCH) && \
 	git checkout master
+	rm -rf "$(BRANCH)"
 
 clean:
 	rm -rf "$(BRANCH)"

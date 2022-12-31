@@ -1,5 +1,5 @@
 ---
-title: Language and the Computer
+title: Language and the Computer (AY22-23)
 instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
