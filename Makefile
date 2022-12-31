@@ -61,8 +61,7 @@ deploy:
   rm -r gh-pages && \
   git add . && \
   git commit --edit --message="Publish @$$(date)" && \
-	git fetch && \
-	git push && \
+	git push -f origin $(BRANCH) && \
 	git checkout master
 
 clean:
