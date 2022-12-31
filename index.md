@@ -28,7 +28,7 @@ schedule:
   - week: 2
     date: 19 Jan
     topic: Basic Types and Data Structures; Using Python to Count Things
-    # url: week2.html
+    url: week2.html
 
   - week: 3
     date: 26 Jan
