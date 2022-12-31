@@ -60,6 +60,7 @@ deploy:
   mv gh-pages/* ./ && \
   rm -r gh-pages && \
   git add . && \
+	git fetch && \
   git commit --edit --message="Publish @$$(date)" && \
 	git push && \
 	git checkout master
