@@ -21,7 +21,7 @@ CSSFILES = $(addprefix $(BRANCH)/,$(SASSFILES:%.scss=%.css))
 
 STATICFILES = $(addprefix $(BRANCH)/,$(wildcard static/*))
 
-all: clean $(BRANCH) html
+all: clean html
 
 html: $(CSSFILES) $(STATICFILES) $(INDEX) $(TARGETS)
 
