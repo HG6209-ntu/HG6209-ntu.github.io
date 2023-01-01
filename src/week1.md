@@ -4,7 +4,7 @@ title: 'Week 1'
 
 ## Introduction
 
-* Introduction to HG2051 ([slides](static/intro.pdf))
+* Introduction to HG2051 ([slides](static/Wk01_slides.pdf))
 
 ## Environment Setup
 

@@ -15,16 +15,18 @@ works](#test-it-out).
 
 For running the code we write, we will need a [Python][python]
 interpreter. This is perhaps the most challenging to set up because each
-platform does it differently. Make sure you get Python version 3.6 or
-higher (3.8.5 is the highest stable version as of this writing).
+platform does it differently. Make sure you get Python version 3.7 or
+higher (3.11.1 is the highest stable version as of this writing). At the
+current time, NLTK requires Python versions 3.7, 3.8, 3.9 or 3.10. I
+recommend installing Python 3.10, since that's what I'll be working with.
 
 #### Windows
 
 The recommended way is to get the latest version from
 <https://www.python.org>:
-[python-3.8.5-amd64.exe](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe){.button}
+[python-3.10.9-amd64.exe](https://www.python.org/ftp/python/3.10.9/python-3.10.9-amd64.exe){.button}
 
-During install, you should select "Add Python 3.8 to PATH". If you do
+During install, you should select "Add Python 3.10 to PATH". If you do
 not, then later in the terminal you may need to use `py` instead of
 `python` or `python3`. That is, if these don't work:
 
@@ -39,7 +41,7 @@ Try this instead (and let me know if this doesn't work, either):
 py --version
 ```
 
-Whichever command returns you a version greater than or equal to 3.6
+Whichever command returns you a version greater than or equal to 3.7
 will be what you can use for this course.
 
 See
@@ -77,7 +79,7 @@ python3 --version
 ```
 
 If it says "command 'python3' not found" or gives you a version lower
-than 3.6, you need to install a newer version. How this is done depends
+than 3.7, you need to install a newer version. How this is done depends
 on the distribution of Linux, so contact me if you need help.
 
 On some distributions, notably Ubuntu, you may need to install support
@@ -99,7 +101,7 @@ instead.
 #### Windows
 
 Download the latest version from <https://git-scm.com>:
-[Git-2.28.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe){.button}
+[Git-2.39.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.39.0.windows.2/Git-2.39.0.2-64-bit.exe){.button}
 
 #### macOS
 

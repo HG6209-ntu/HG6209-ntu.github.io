@@ -138,7 +138,7 @@ Previous years of this course were taught by:
 
 - Michael Wayne Goodman:
   [2019](http://compling.hss.ntu.edu.sg/courses/hg2051/),
-  [2020](#)
+  [2020](https://ntu-hg2051.github.io/)
 - Francis Bond:
   2010,
   2011,
