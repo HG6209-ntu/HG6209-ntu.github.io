@@ -45,9 +45,17 @@ title: 'Week 1'
   - Notebook (https://jupyter.org/)
 * Getting results from Python
 
+## If time allows..
+[Introduction to the Natural Language Tool Kit](static/preface_NLTK.pdf)
+
 ## Homework 1
 
 See invite for GitHub on BlackBoard (NTULearn).
+
+## Readings:
+NLTK Chapter 1: [Language Processing and Python](https://www.nltk.org/book/ch01.html)
+NLTK Chapter 1.1: [Computing with Language: Texts and Words](https://www.nltk.org/book/ch01.html#sec-computing-with-language-texts-and-words)
+NLTK Chapter 1.5: [Automatic Natural Language Understanding](https://www.nltk.org/book/ch01.html#sec-automatic-natural-language-understanding)
 
 [vscode]: https://code.visualstudio.com/
 [git]: https://git-scm.com/
