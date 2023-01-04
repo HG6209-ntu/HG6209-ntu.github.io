@@ -66,6 +66,7 @@ schedule:
     date: 09 Mar
     topic: Regular Expressions
     # url: week8.html
+    notes: Assignment 1 due
 
   - week: 9
     date: 16 Mar
@@ -91,6 +92,7 @@ schedule:
     date: 13 Apr
     topic: Review
     # url: week13.html
+    notes: Assignment 2 due
 ---
 
 ## Course Pages
@@ -103,8 +105,9 @@ schedule:
 
 This course is graded with continuous assessment as follows:
 
-- Assignments -- 40%
-- Group Project -- 20%
+- Homework -- 20%
+- Project 1 -- 20%
+- Project 2 -- 20%
 - Mid-term Exam -- 15%
 - Final Exam -- 15%
 - Participation -- 10%
