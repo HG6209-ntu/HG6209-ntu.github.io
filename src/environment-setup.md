@@ -300,7 +300,7 @@ command in your terminal:
 $ set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 *Thanks to [THIS](https://www.c-sharpcorner.com/article/how-to-fix-ps1-can-not-be-loaded-because-running-scripts-is-disabled-on-this-sys/) blog post and related Stack Overflow answer*:
-<https://stackoverflow.com/a/61281420/1441112>
+<https://stackoverflow.com/questions/1098786/run-bash-script-from-windows-powershell>
 
 ## Test It Out
 
