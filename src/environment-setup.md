@@ -98,11 +98,12 @@ straightforward but there are many options. Choose the default for all
 except for the editor, which may say "vim". Choose "Visual Studio Code"
 instead.
 
-Go to [Github](https://github.com) and sign up for a free account with your
-email address. The email will be necessary for pushing changes to your Github
-Classroom assignments. Set up credentials on your local machine after installing
-Git with the commands below (replace `USERNAME` with your Github username, and
-`NAME@EMAIL.com` with your Github email address):
+If you haven't already done so, go to [Github](https://github.com) and sign
+up for a free account with your email address. The email will be necessary
+for pushing changes to your assignments. Set up credentials on your local
+machine after installing Git with the commands below (replace `USERNAME`
+with your Github username, and `NAME@EMAIL.com` with your Github email
+address):
 
 ```{.bash .terminal}
 git config --global user.name "USERNAME"
