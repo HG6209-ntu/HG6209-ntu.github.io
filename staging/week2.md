@@ -2,6 +2,11 @@
 title: 'Week 2'
 ---
 
+## Lecture
+
+[Getting Started with Python (Lists)](static/OOPython-Lists.pdf)
+Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
+
 ## Learning Objectives
 
 * Data types: [`int`]{.py} [`float`]{.py} [`str`]{.py} [`list`]{.py} [`set`]{.py}
@@ -10,7 +15,7 @@ title: 'Week 2'
 
 (color key: [Python/Programming]{.py} [NLP/CL]{.nlp} [Software Engineering]{.eng})
 
-## Reading
+## Additional Readings
 
 The readings for this week come from the official Python tutorial. The topic is "Using Python as a Calculator", but it is a good introduction to numbers, strings, and lists.
 

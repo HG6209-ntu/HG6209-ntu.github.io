@@ -98,6 +98,17 @@ straightforward but there are many options. Choose the default for all
 except for the editor, which may say "vim". Choose "Visual Studio Code"
 instead.
 
+Go to [Github](https://github.com) and sign up for a free account with your
+email address. The email will be necessary for pushing changes to your Github
+Classroom assignments. Set up credentials on your local machine after installing
+Git with the commands below (replace `USERNAME` with your Github username, and
+`NAME@EMAIL.com` with your Github email address):
+
+```{.bash .terminal}
+git config --global user.name "USERNAME"
+git config --global user.email "NAME@EMAIL.com"
+```
+
 #### Windows
 
 Download the latest version from <https://git-scm.com>:
@@ -235,13 +246,17 @@ source env/bin/activate
 ```
 
 Windows users may have more work to do, because Windows by default
-blocks you from running "untrusted" scripts. To allow the current
-session to activate the virtual environment, you can change Visual
-Studio Code's settings so PowerShell can run these scripts. Open the
-settings by typing <kbd>Ctrl-,</kbd> or use the menu *File* >
-*Preferences* > *Settings*, then search for the following setting:
+blocks you from running "untrusted" scripts. First, we want to ensure
+that Windows PowerShell is being used as our default terminal in VSCode.
+We can do this by searching for `terminal` in the Command Palette
+(<kbd>[Cmd]Ctrl-Shift-P</kbd>) and selecting PowerShell as the default.
+Then, to allow  the current session to activate the virtual environment,
+you can change Visual Studio Code's settings so PowerShell can run these
+scripts. One thing to try is to open the settings by typing <kbd>Ctrl-,</kbd>
+or use the menu *File* > *Preferences* > *Settings*, then search for the
+following setting:
 
-    terminal.integrated.shellArgs.windows
+    `terminal.integrated.shellArgs.windows`
 
 ![*Finding the Setting*](static/windows-find-executionpolicy-setting.png)
 
@@ -268,6 +283,23 @@ using `python` (instead of `python3` or `py`) should use the Python
 version included in the virtual environment.
 
 *Thanks to the following Stack Overflow answer*:
+<https://stackoverflow.com/a/61281420/1441112>
+
+With newer versions of Windows, you may need to additionally disable
+the setting that tries to install Python from the Microsoft Store. You
+can do this by navigating to the 'Apps and programs' section of the
+settings page and deselecting the shortcut option there.
+
+Another concern with Windows is that `bash` commands are not enabled by
+default in PowerShell, resulting in errors. The `Bash` program is
+installed by Git and used for committing and pushing changes, among other
+things. To ensure that bash commands are enabled, run the following
+command in your terminal:
+
+```{.bash .terminal}
+$ set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+*Thanks to [THIS](https://www.c-sharpcorner.com/article/how-to-fix-ps1-can-not-be-loaded-because-running-scripts-is-disabled-on-this-sys/) blog post and related Stack Overflow answer*:
 <https://stackoverflow.com/a/61281420/1441112>
 
 ## Test It Out
