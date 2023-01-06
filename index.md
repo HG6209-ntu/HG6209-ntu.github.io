@@ -27,13 +27,15 @@ schedule:
 
   - week: 2
     date: 19 Jan
-    topic: Basic Types and Data Structures; Using Python to Count Things
-    # url: week2.html
+    topic: Basic Types and Data Structures; Using Python to Count Things; Lists
+    url: week2.html
+    notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
   - week: 3
     date: 26 Jan
-    topic: Assignment, Expressions, and Control
+    topic: Assignment, Expressions, and Control; Strings
     # url: week3.html
+    notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
     date: 02 Feb
@@ -66,7 +68,7 @@ schedule:
     date: 09 Mar
     topic: Regular Expressions
     # url: week8.html
-    notes: Assignment 1 due
+    notes: Project 1 due
 
   - week: 9
     date: 16 Mar
@@ -92,7 +94,7 @@ schedule:
     date: 13 Apr
     topic: Review
     # url: week13.html
-    notes: Assignment 2 due
+    notes: Project 2 due
 ---
 
 ## Course Pages
@@ -105,11 +107,11 @@ schedule:
 
 This course is graded with continuous assessment as follows:
 
-- Homework -- 20%
-- Project 1 -- 20%
-- Project 2 -- 20%
-- Mid-term Exam -- 15%
-- Final Exam -- 15%
+- Homework (autograded)
+- Project 1 -- 30%
+- Project 2 -- 30%
+- Mid-term Quiz -- 15%
+- Final Quiz -- 15%
 - Participation -- 10%
 
 You may also get 1--5% extra credit (not exceeding 100% in the course)
@@ -137,7 +139,9 @@ open-source project. Contact me for details.
 
 ## Acknowledgments
 
-Previous years of this course were taught by:
+The majority of the content for this course has been borrowed (with
+permission) from Michael Wayne Goodman and Francis Bond, who taught
+previous years:
 
 - Michael Wayne Goodman:
   [2019](http://compling.hss.ntu.edu.sg/courses/hg2051/),

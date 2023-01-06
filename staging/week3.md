@@ -2,6 +2,11 @@
 title: 'Week 3'
 ---
 
+## Lecture
+
+[Getting Started with Python (Strings)](static/OOPython-Strings.pdf)
+Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
+
 ## Learning Objectives
 
 * Data types:

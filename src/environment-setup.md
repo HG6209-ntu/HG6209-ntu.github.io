@@ -31,14 +31,14 @@ not, then later in the terminal you may need to use `py` instead of
 `python` or `python3`. That is, if these don't work:
 
 ```{.bash .terminal}
-python --version
-python3 --version
+$ python --version
+$ python3 --version
 ```
 
 Try this instead (and let me know if this doesn't work, either):
 
 ```{.bash .terminal}
-py --version
+$ py --version
 ```
 
 Whichever command returns you a version greater than or equal to 3.7

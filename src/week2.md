@@ -5,6 +5,7 @@ title: 'Week 2'
 ## Lecture
 
 [Getting Started with Python (Lists)](static/OOPython-Lists.pdf)
+
 Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
 
 ## Learning Objectives
@@ -17,7 +18,9 @@ Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
 
 ## Additional Readings
 
-The readings for this week come from the official Python tutorial. The topic is "Using Python as a Calculator", but it is a good introduction to numbers, strings, and lists.
+The readings for this week come from the official Python tutorial. The topic
+is "Using Python as a Calculator", but it is a good introduction to numbers,
+strings, and lists.
 
 * [3.1 -- Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
   - [3.1.1 -- Numbers](https://docs.python.org/3/tutorial/introduction.html#numbers)
@@ -44,7 +47,8 @@ There are two methods not mentioned in the tutorial:
   ['one', 'two', 'two']
   ```
 
-- `list.count(x)` -- return the number of times that `x` occurs in a sequence (e.g., a list or a string)
+- `list.count(x)` -- return the number of times that `x` occurs in a sequence
+(e.g., a list or a string)
 
   ```{.python .terminal}
   >>> ['one', 'two', 'two'].count('one')
@@ -66,8 +70,10 @@ s = ('There are seven days, there are seven days, '
 Try to answer the following questions:
 
 - How many times does the word "day" occur in the string?
-- How many times do the tokens "day", "days", and "days," (note the comma) occur in the list of tokens (use `split()`)?
+- How many times do the tokens "day", "days", and "days," (note the comma)
+  occur in the list of tokens (use `split()`)?
 - How many tokens are there in total?
-- Find the relative frequency of the token "are" (number of times it occurs over the count of all tokens)
+- Find the relative frequency of the token "are" (number of times it occurs
+  over the count of all tokens)
 - What is the set of unique words?
 - What is the set of unique letters?

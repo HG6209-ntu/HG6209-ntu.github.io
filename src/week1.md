@@ -48,14 +48,16 @@ title: 'Week 1'
 ## If time allows..
 [Introduction to the Natural Language Tool Kit](static/preface_NLTK.pdf)
 
-In-class setup of NLTK:
+In-class setup of NLTK (Windows/Mac/Linux):
 
-- `$ pip install nltk` (Windows/Mac/Linux)
-- `$ python`
+```{.bash .terminal}
+$ pip install nltk
+$ python
+```
 
  ```{.python .terminal}
  >>> import nltk
- >>> nltk.download()
+ >>> nltk.download() # first time on this machine
  >>> from nltk.book import *
  ```
 
@@ -90,6 +92,26 @@ In-class setup of NLTK:
 See invite for GitHub on NTULearn.
 
 ## Readings for next week:
+
+We will spend the next few weeks becoming familiar with Python programming
+and practicing basic concepts and methods.
+
+The primary readings for next week are from the official Python tutorial:
+
+* [3.1 -- Using Python as a Calculator](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator)
+  - [3.1.1 -- Numbers](https://docs.python.org/3/tutorial/introduction.html#numbers)
+  - [3.1.2 -- Strings](https://docs.python.org/3/tutorial/introduction.html#strings)
+  - [3.1.3 -- Lists](https://docs.python.org/3/tutorial/introduction.html#lists)
+
+Additionally, please read the section on sets (only this section, *not*
+the rest of the chapter):
+
+* [5.4 -- Sets](https://docs.python.org/3/tutorial/datastructures.html#sets)
+
+To familiarize you with the Natural Language ToolKit (NLTK) and give you a
+taste of what we will start to cover from Week 4, here are some additional
+readings, which also allow you to practice some of what we will go through
+in Week 2:
 
 - NLTK Chapter 1: [Language Processing and Python](https://www.nltk.org/book/ch01.html)
 - NLTK Chapter 1.1: [Computing with Language: Texts and Words](https://www.nltk.org/book/ch01.html#sec-computing-with-language-texts-and-words)
