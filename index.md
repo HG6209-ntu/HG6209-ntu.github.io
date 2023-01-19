@@ -34,13 +34,16 @@ schedule:
   - week: 3
     date: 26 Jan
     topic: Assignment, Expressions, and Control; Strings
-    # url: week3.html
+    url: week3.html
     notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
     date: 02 Feb
     topic: Text Corpora and Conditional Frequencies
     # url: week4.html
+    notes: "[DIP 2.2](https://diveintopython3.problemsolving.io/native-datatypes.html#booleans),
+    [2.8](https://diveintopython3.problemsolving.io/native-datatypes.html#none); [PyT 5.3](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences),
+    [5.5](https://docs.python.org/3/tutorial/datastructures.html#dictionaries); [NLTK 2.1](http://www.nltk.org/book/ch02.html#accessing-text-corpora), [2.2](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions)"
     # notes: "[notebook](static/week4-practice.ipynb)"
 
   - week: 5

@@ -4,8 +4,8 @@ title: 'Week 3'
 
 ## Lecture
 
-[Getting Started with Python (Strings)](static/OOPython-Strings.pdf)
-Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
+[Getting Started with Python (Strings)](static/OOPython-Strings.pdf): Slides
+from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 
 ## Learning Objectives
 
@@ -67,7 +67,7 @@ methods](https://docs.python.org/3/library/stdtypes.html#string-methods):
 
 ### List Methods and Other Uses
 
-Lists also have a number of useful methods and :
+Lists also have a number of useful methods and other uses:
 
 * [5.1 -- More on Lists](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists)
  - [5.1.1 -- Using Lists as Stacks](https://docs.python.org/3/tutorial/datastructures.html#using-lists-as-stacks)

@@ -13,9 +13,8 @@ for a bit more history.
 
 Review of Homework 1
 
-[Getting Started with Python (Lists)](static/OOPython-Lists.pdf)
-
-Slides from Object-Oriented Programming in Python (Goldwasser and Letscher)
+[Getting Started with Python (Lists)](static/OOPython-Lists.pdf): Slides
+from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 
 ## Learning Objectives
 
