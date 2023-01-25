@@ -4,6 +4,8 @@ title: 'Week 3'
 
 ## Lecture
 
+Review of Homework 2
+
 [Getting Started with Python (Strings)](static/OOPython-Strings.pdf): Slides
 from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 
@@ -159,3 +161,28 @@ following questions:
 * What proportion of the case-normalized tokens are, or are not, stopwords?
 * What is the set of tokens in the book that begin with "whale"?
 * What is the set of tokens in the book that begin with "whale" and are all alphabetic characters?
+
+## Word frequencies
+
+Now that we understand what corpora are like, we can try to understand them
+in more detail. For example, we can look at *frequency distributions* ([NLTK 1.3](https://www.nltk.org/book/ch01.html#fig-tally)) to identify potential
+words that are particularly informative about a text. Let's use NLTK's
+`FreqDist` class to find the 50 most frequent words of Moby Dick:
+
+```python
+>>> fdist1 = nltk.FreqDist(moby_dick.split())
+>>> print(fdist1)
+<FreqDist with 33265 samples and 212030 outcomes>
+>>> fdist1.most_common(50)
+...
+>>> fdist1['whale']
+392
+>>>
+```
+
+How informative are these words?
+
+## On your own
+
+Explore these outcomes following the text linked above. Why do our results
+differ from the book?

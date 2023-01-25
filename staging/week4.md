@@ -45,7 +45,7 @@ example:
   ```python
   >>> def func(x=None):
   ...     print('this function prints', x, 'but returns None')
-  ... 
+  ...
   >>> x = func()
   this function prints None but returns None
   >>> print(x)
@@ -116,7 +116,7 @@ answer questions like these:
 - What is the difference between an annotated and unannotated corpus?
 - How might some text corpus structures be more or less appropriate for certain NLP tasks?
 
-You don't have to read all the section in 2.1. Focus on these for now:
+You don't have to read all the sections in 2.1. Focus on these for now:
 
 * [NLTK 2.1 -- Accessing Text Corpora](http://www.nltk.org/book/ch02.html#accessing-text-corpora)
   - [NLTK 2.1.1 -- Gutenberg Corpus](http://www.nltk.org/book/ch02.html#gutenberg-corpus)
