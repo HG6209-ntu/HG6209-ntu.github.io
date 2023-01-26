@@ -38,7 +38,7 @@ concise description of these:
 * [DIP 2.8 -- None](https://diveintopython3.problemsolving.io/native-datatypes.html#none)
 
 Another thing to add about `None` is that it is often used as a
-placeholder for optional arguments and it is the return value of
+placeholder for optional arguments and it is the return value of a
 function with no `return` statement or an empty `return` statement. For
 example:
 
@@ -128,7 +128,7 @@ You don't have to read all the sections in 2.1. Focus on these for now:
 ### Conditional Frequency Distribution
 
 Earlier we discussed frequency distribution and used the NLTK's
-`FreqDist` class. Now we will introduce conditional frequency
+`FreqDist` class. Now we will introduce *conditional* frequency
 distributions. Please read the following:
 
 * [NLTK 2.2 -- Conditional Frequency Distributions](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions)

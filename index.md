@@ -40,7 +40,7 @@ schedule:
   - week: 4
     date: 02 Feb
     topic: Text Corpora and Conditional Frequencies
-    # url: week4.html
+    url: week4.html
     notes: "[DIP 2.2](https://diveintopython3.problemsolving.io/native-datatypes.html#booleans),
     [2.8](https://diveintopython3.problemsolving.io/native-datatypes.html#none); [PyT 5.3](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences),
     [5.5](https://docs.python.org/3/tutorial/datastructures.html#dictionaries); [NLTK 2.1](http://www.nltk.org/book/ch02.html#accessing-text-corpora), [2.2](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions)"
@@ -50,6 +50,8 @@ schedule:
     date: 09 Feb
     topic: Lexical Resources and WordNet
     # url: week5.html
+    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet),
+    ([How To](http://www.nltk.org/howto/wordnet.html))"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
