@@ -58,6 +58,7 @@ schedule:
   - week: 7
     date: 23 Feb
     topic: Mid-review; Working with Software Projects
+    notes: Midterm Quiz
     # url: week7.html
 
   - week: --
@@ -95,7 +96,7 @@ schedule:
     date: 13 Apr
     topic: Review
     # url: week13.html
-    notes: Project 2 due
+    notes: Final Quiz; Project 2 due
 ---
 
 ## Course Pages
