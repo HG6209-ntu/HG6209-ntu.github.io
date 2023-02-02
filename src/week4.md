@@ -2,6 +2,12 @@
 title: 'Week 4'
 ---
 
+## Lecture
+
+Review of Homework 3
+
+Jupyter Notebooks
+
 ## Learning Objectives
 
 * Constants:
@@ -159,5 +165,5 @@ starting with the letter. For example:
 ### Text Corpora and Conditional Frequencies
 
 * Use the NLTK's Brown corpus and `ConditionalFreqDist` class to find
-  what are the most frequent words for each genre of the Browne corpus.
+  what are the most frequent words for each genre of the Brown corpus.
 * Try again but first filter out stopwords.

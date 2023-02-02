@@ -29,29 +29,25 @@ schedule:
     date: 19 Jan
     topic: Basic Types and Data Structures; Using Python to Count Things; Lists
     url: week2.html
-    notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
+    # notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
   - week: 3
     date: 26 Jan
     topic: Assignment, Expressions, and Control; Strings
     url: week3.html
-    notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
+    # notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
     date: 02 Feb
     topic: Text Corpora and Conditional Frequencies
     url: week4.html
-    notes: "[DIP 2.2](https://diveintopython3.problemsolving.io/native-datatypes.html#booleans),
-    [2.8](https://diveintopython3.problemsolving.io/native-datatypes.html#none); [PyT 5.3](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences),
-    [5.5](https://docs.python.org/3/tutorial/datastructures.html#dictionaries); [NLTK 2.1](http://www.nltk.org/book/ch02.html#accessing-text-corpora), [2.2](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions)"
-    # notes: "[notebook](static/week4-practice.ipynb)"
+    notes: "[notebook](static/week4-practice.ipynb)"
 
   - week: 5
     date: 09 Feb
     topic: Lexical Resources and WordNet
-    # url: week5.html
-    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet),
-    ([How To](http://www.nltk.org/howto/wordnet.html))"
+    url: week5.html
+    #notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6

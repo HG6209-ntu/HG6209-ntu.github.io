@@ -273,7 +273,9 @@ And in use:
     >>> from nltk.corpus import gutenberg
     >>> words = [w for w in gutenberg.words('melville-moby_dick.txt') if len(w) > 2]
     >>> print(collocations(words)[:10])
-    [('Moby', 'Dick'), ('Sperm', 'Whale'), ('White', 'Whale'), ('Dough', 'Boy'), ('Mrs', 'Hussey'), ('Sag', 'Harbor'), ('Father', 'Mapple'), ('New', 'Bedford'), ('Fast', 'Fish'), ('have', 'been')]
+    [('Moby', 'Dick'), ('Sperm', 'Whale'), ('White', 'Whale'), ('Dough', 'Boy'),
+    ('Mrs', 'Hussey'), ('Sag', 'Harbor'), ('Father', 'Mapple'), ('New', 'Bedford'),
+    ('Fast', 'Fish'), ('have', 'been')]
     ```
 
 For further information (not required reading), see:
