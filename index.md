@@ -48,12 +48,12 @@ schedule:
     topic: Lexical Resources and WordNet
     url: week5.html
     #notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
-    # notes: "[notebook](static/week5-practice.ipynb)"
+    notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
     date: 16 Feb
     topic: Processing Raw Text
-    # url: week6.html
+    url: week6.html
 
   - week: 7
     date: 23 Feb
