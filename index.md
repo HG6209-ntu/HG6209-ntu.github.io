@@ -54,6 +54,7 @@ schedule:
     date: 16 Feb
     topic: Processing Raw Text
     url: week6.html
+    #notes: Project 1
 
   - week: 7
     date: 23 Feb
@@ -70,7 +71,6 @@ schedule:
     date: 09 Mar
     topic: Regular Expressions
     # url: week8.html
-    notes: Project 1 due
 
   - week: 9
     date: 16 Mar
@@ -81,6 +81,7 @@ schedule:
     date: 23 Mar
     topic: Part-of-speech Tagging
     # url: week10.html
+    notes: "[Project 1](project1.html) due"
 
   - week: 11
     date: 30 Mar
@@ -96,7 +97,7 @@ schedule:
     date: 13 Apr
     topic: Review
     # url: week13.html
-    notes: Final Quiz; Project 2 due
+    notes: "[Project 2](project2.html) due; Final Quiz"
 ---
 
 ## Course Pages
