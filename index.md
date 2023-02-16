@@ -54,7 +54,7 @@ schedule:
     date: 16 Feb
     topic: Processing Raw Text
     url: week6.html
-    #notes: Project 1
+    notes: "[notebook](static/week6-practice.ipynb)"
 
   - week: 7
     date: 23 Feb
