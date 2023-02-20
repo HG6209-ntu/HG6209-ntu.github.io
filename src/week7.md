@@ -15,8 +15,16 @@ title: 'Week 7'
 
 ## Review and Quiz
 
-For the review, please see the [review of course topics](review.html),
-particularly those for the first quiz.
+For the review, please see the [midterm review](midterm-review.html).
+
+The midterm quiz consists of an in-class project that will apply all you have
+learned in the first half of this course. After the lecture you will be provided
+an individual link to your quiz repository, which contains instructions on
+completing the quiz. You will have 1.5 to 2 hours to complete the quiz by
+updating your repository. This quiz is not autograded, but you are encouraged
+to write your own tests to ensure that the goals are met. This is an open quiz,
+meaning that using online resources etc is allowed. However, the quiz will be
+monitored and collusion or cheating will result in automatic failure.
 
 ## Working with Software Projects
 

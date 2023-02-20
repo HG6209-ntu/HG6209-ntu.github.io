@@ -60,7 +60,7 @@ schedule:
     date: 23 Feb
     topic: Mid-review; Working with Software Projects
     notes: Midterm Quiz
-    # url: week7.html
+    url: week7.html
 
   - week: --
     date: 02 Mar
@@ -105,6 +105,7 @@ schedule:
 - [Environment Setup](environment-setup.html) -- instructions for setting up your computer for HG2051
 - [Using Visual Studio Code](using-vscode.html) -- how to get, complete, and submit assignments
 - [Glossary](glossary.html) -- definitions of some technical terms
+- [Midterm Review](midterm-review.html)
 
 ## Grading Criteria
 
