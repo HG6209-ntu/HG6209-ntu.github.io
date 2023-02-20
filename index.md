@@ -95,9 +95,9 @@ schedule:
 
   - week: 13
     date: 13 Apr
-    topic: Review
+    topic: Review and Final Quiz
     # url: week13.html
-    notes: "[Project 2](project2.html) due; Final Quiz"
+    notes: "[Project 2](project2.html) due"
 ---
 
 ## Course Pages
