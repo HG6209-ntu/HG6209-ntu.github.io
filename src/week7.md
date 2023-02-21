@@ -44,9 +44,9 @@ But first, let’s look at how to use Python packages to organize code.
 When you write some file `hw6.py`, then it is a Python module that can be
 imported as follows:
 
-    ```python
-    >>> import hw6
-    ```
+  ```python
+  >>> import hw6
+  ```
 
 When working with larger projects, you may need multiple modules, and you may
 want to group them into _packages_. On the computer, these are just folders
