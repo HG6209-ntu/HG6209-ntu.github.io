@@ -2,10 +2,9 @@
 title: 'HG2051 AY2022-23 – Midterm Review'
 ---
 
-Mid-term Quiz Topics
-====================
+# Mid-term Quiz Topics
 
-*   Python/Programming
+*   [Python/Programming]{.py}
     *   REPL, Notebook, Module
     *   Assignment
     *   Data types (`int`, `str`, `float`, `tuple`, `list`, `set`, `dict`)
@@ -15,14 +14,14 @@ Mid-term Quiz Topics
     *   Functions (arguments, default arguments, `return`)
     *   Raw data (`open()`, `str.encode()`, `bytes.decode()`, `urllib.request.urlopen()`)
     *   Pandas (`read_csv()`, `read_excel`, `to_csv()`, `to_excel`)
-*   NLP/CL
+*   [NLP/CL]{.nlp}
     *   Basic tokenization
     *   Text normalization (purpose, kinds of normalization)
     *   Types vs Tokens
     *   Frequency Distributions, Conditional Frequency Distributions
     *   Text corpora (Gutenberg, Brown, annotated corpora)
     *   Lexical resources (word lists, stopwords, pronouncing dictionaries, WordNet)
-*   Software Engineering
+*   [Software Engineering]{.eng}
     *   Paths and folders
     *   Git (purpose, usage)
     *   Efficiency (e.g., which function is faster)
@@ -42,48 +41,57 @@ This category is for programming concepts, techniques, and structures as used in
 
 Python is a very flexible language that can be used in multiple ways.
 
-#### REPL
+#### [REPL]{.py}
 
 REPL (Read-Evaluate-Print-Loop) describes the way the computer operates an _interactive interpreter_ such as Python’s IDLE interpreter. The computer reads what the user entered, evaluates it, prints the output, and loops (starts this process again). When you see code written with `>>>` on the left side, it is showing what you would see in an interactive interpreter:
 
+```python
     >>> print("hello")
     hello
+```
 
 You can start an interactive interpreter by running the Python command in a terminal without any arguments:
 
+```bash
     $ python
+```
+```python
     Python 3.8.2 (default, Jul 16 2020, 14:00:26)
     [GCC 9.3.0] on linux
     Type "help", "copyright", "credits" or "license" for more information.
     >>>
+```
 
 The REPL mode of Python is useful for quick experiments and debugging, but it is not easy to revise what has been entered so it is not convenient for larger programs.
 
-#### Module
+#### [Module]{.py}
 
 Perhaps the most common way to write Python code is in a _module_. A module is just a `.py` file containing Python code. The file is saved on the computer and it is not run until it is loaded and processed by a Python process. Modules meant to be imported by other modules are generally called _libraries_, while modules meant to be run directly are called _scripts_. Imagine you had a file `hello.py` with the following contents:
 
+```python
     print('hello')
+```
 
 You can then run this script at the command line and see its output as follows (depending on your system and environment, the `python3` command may be `python`, `py`, or something else):
 
+```bash
     $ python3 hello.py
     hello
+```
 
 Using modules to write Python code is the most versatile mode and is recommended for most uses.
 
-#### Notebook
+#### [Notebook]{.py}
 
 A mode of using Python popular for demostration or pegagogical purposes is the notebook. It mixes human language text with Python code and sometimes provides a more friendly view of the output (e.g., rendered charts and tables). This style of programming is called _literate programming_. It looks something like this:
 
 ![Example of using a Python notebook](static/notebook.png)
 
-Example of using a Python notebook
-
 ### Expressions, Statements, Definitions
 
-#### Assignment
+#### [Assignment]{.py}
 
+```python
     >>> x = 3            # assign the value 3 to the variable named 'x'
     >>> x = x + 1        # evaluate the expression 'x + 1' then assign its result to x
     >>> x
@@ -103,27 +111,33 @@ Example of using a Python notebook
     >>> x = x.append(3)  # be careful not to reassign to function that return None (don't do this)
     >>> x is None
     True
+```
 
-#### Functions
+#### [Functions]{.py}
 
+```python
     def myfunction(x, y, z=0):  # define a function named 'myfunction' with 3 parameters;
                                 # x and y are required, z has a default value so it is optional
         return x * y * z        # return a value so the caller can make use of it
                                 # if there is no return statement, the function returns None
+```
 
 Once a function is defined, call it by its name:
 
+```python
     >>> myfunction(1, 2)
     0
     >>> myfunction(1, 2, 3)
     6
+```
 
 ### Data Types
 
-#### `int`
+#### [`int`]{.py}
 
 Integer types represent positive or negative whole numbers.
 
+```python
     >>> 1024           # literal integers are base-10
     1024
     >>> int(3.14159)   # int() casts floats to integers
@@ -134,11 +148,13 @@ Integer types represent positive or negative whole numbers.
     5
     >>> 20 // 3        # floor division drops any remainder
     6
+```
 
-#### `float`
+#### [`float`]{.py}
 
 Floating-point numbers represent numbers with a fractional component.
 
+```python
     >>> 3.14           # literal floats include a decimal
     3.14
     >>> 6.02e23        # and/or an exponent
@@ -151,11 +167,13 @@ Floating-point numbers represent numbers with a fractional component.
     6.666666666666667
     >>> 20 / 5         # even when there's no remainder
     4.0
+```
 
-#### `str`
+#### [`str`]{.py}
 
 Strings are sequences of characters.
 
+```python
     >>> 'a string'         # strings are surrounded by single quotes
     'a string'
     >>> "another string"   # or double quotes
@@ -164,16 +182,18 @@ Strings are sequences of characters.
     ... another'''         # or three single/double quotes (newlines allowed)
     >>> 'もう一つ'          # unicode is ok
     'もう一つ'
+```
 
 **Useful string methods:**
 
 *   [str.split()](https://docs.python.org/3/library/stdtypes.html#str.split) – return the list of tokens in the string
 *   [str.lower()](https://docs.python.org/3/library/stdtypes.html#str.lower) – return the string with all cased characters downcased
 
-#### `list`
+#### [`list`]{.py}
 
 Lists are mutable sequences of values.
 
+```python
     >>> x = []           # make an empty list
     >>> x = list()       # this works, too
     >>> x.append(1)      # add a single value
@@ -190,11 +210,13 @@ Lists are mutable sequences of values.
     1
     >>> 4 in x           # use 'in' to check for membership
     False
+```
 
-#### `tuple`
+#### [`tuple`]{.py}
 
 Tuples are immutable sequences of values.
 
+```python
     >>> ()                       # make an empty tuple
     ()
     >>> tuple()                  # or use the function
@@ -212,11 +234,13 @@ Tuples are immutable sequences of values.
     (1, 2)
     >>> x.count(1)               # many list operations work on tuples (but not mutating ones)
     2
+```
 
-#### `set`
+#### [`set`]{.py}
 
 Sets are containers of unique values.
 
+```python
     >>> set()              # use the function to create an empty set ('{}' creates a dictionary)
     set()
     >>> {1, 2}             # Use braces with comma-separated values to create non-empty sets
@@ -234,11 +258,13 @@ Sets are containers of unique values.
     {1, 2, 3, 4}
     >>> 2 in x             # check for membership
     True
+```
 
-#### `dict`
+#### [`dict`]{.py}
 
 Dictionaries are much like sets but they associate keys to values.
 
+```python
     >>> {}                          # create an empty dict with {}
     {}
     >>> dict()                      # the function works, too
@@ -261,6 +287,7 @@ Dictionaries are much like sets but they associate keys to values.
     True
     >>> 1 in d                      # cannot check for membership of values this way
     False
+```
 
 ### Constants
 
@@ -271,17 +298,17 @@ should be avoided so you don't accidentally reassign key functions. Naming
 constant variables in all capital letters is a convention to separate them from
 ordinary variables, however, it does not actually prevent reassignment.
 
-#### True & False
+#### [True, False]{.py}
 
 Boolean operators that identify values.
 
-#### None
+#### [None]{.py}
 
 An operator that identifies presence/absence.
 
 ### Control Structures
 
-#### if
+#### [if]{.py}
 
 An `if` statement is used for a _conditional block_—code that is executed only if a condition is true. See the Python Tutorial’s section on [`if` Statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
 
@@ -307,7 +334,7 @@ Note that if you use multiple `if` statements instead of `elif` or `else`, they 
         print(word, 'exists in vocabulary when case-normalized')
 ```
 
-#### for
+#### [for]{.py}
 
 A `for` statement (also called a for-loop) loops over each item in an iterable. This generally means the loop is bounded by the number of items in the iterable, and it’s used when the iterable items themselves are used inside the loop. See the Python Tutorial’s section on [`for` Statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements).
 
@@ -318,7 +345,7 @@ A `for` statement (also called a for-loop) loops over each item in an iterable. 
         print(f'the square of {number} is {square}')
 ```
 
-#### while
+#### [while]{.py}
 
 A `while` statement (also called a while-loop) loops as long as a condition is met. This condition can be just about anything, and sometimes it is `True`, meaning an infinite loop. See the Python Tutorial’s example of [`while` statements](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming). While-loops are often used when the number of iterations is not fixed or known in advance, or when there is no iterable whose items are used inside the loop.
 
@@ -333,33 +360,33 @@ A `while` statement (also called a while-loop) loops as long as a condition is m
         a = tmp
 ```
 
-#### Comprehensions
+#### [Comprehensions]{.py}
 
 ### Built-in Functions
 
-#### print()
+#### [print()]{.py}
 
-#### len()
+#### [len()]{.py}
 
-#### range()
+#### [range()]{.py}
 
-#### enumerate()
+#### [enumerate()]{.py}
 
-#### any()
+#### [any()]{.py}
 
-#### all()
+#### [all()]{.py}
 
-#### open()
+#### [open()]{.py}
 
 ### Raw data
 
-#### open()
+#### [open()]{.py}
 
-#### str.encode()
+#### [str.encode()]{.py}
 
-#### bytes.decode()
+#### [bytes.decode()]{.py}
 
-#### urllib.request.urlopen()
+#### [urllib.request.urlopen()]{.py}
 
 ### Pandas
 
@@ -369,20 +396,20 @@ human-readable structure. You can used Pandas by importing it and initializing
 a dataframe:
 
 ```python
-import pandas as pd
+    import pandas as pd
 
-df = pd.DataFrame()
+    df = pd.DataFrame()
 ```
 
 You can also use pandas to read and write character-delimited files or excel
 spreadsheets:
 
 ```python
-df = pd.read_csv('randomfile.csv', delimiter="\t")
-df = pd.to_csv('randomfile.csv', sep="\t")
+    df = pd.read_csv('randomfile.csv', delimiter="\t")
+    df = pd.to_csv('randomfile.csv', sep="\t")
 
-df = pd.read_excel('randomfile.xlsx')
-df = pd.to_excel('randomfile.xlsx')
+    df = pd.read_excel('randomfile.xlsx')
+    df = pd.to_excel('randomfile.xlsx')
 ```
 
 ## NLP/CL
@@ -391,23 +418,23 @@ This category is for concepts and techniques related to natural language process
 
 ### Concepts
 
-#### types-vs-tokens
+#### [types-vs-tokens]{.nlp}
 
-#### tokenization
+#### [tokenization]{.nlp}
 
-#### normalization
+#### [normalization]{.nlp}
 
-#### Frequency Distributions
+#### [Frequency Distributions]{.nlp}
 
-#### Conditional Frequency Distributions
+#### [Conditional Frequency Distributions]{.nlp}
 
-#### Text Corpora
+#### [Text Corpora]{.nlp}
 
-#### Lexical Resources
+#### [Lexical Resources]{.nlp}
 
 ### Tools
 
-#### NLTK
+#### [NLTK]{.nlp}
 
 ## Software Engineering
 
@@ -415,22 +442,22 @@ This category is for practices of software engineering as well as programming co
 
 ### Working on a System
 
-#### Paths and folders
+#### [Paths and folders]{.eng}
 
-#### Virtual Environments
+#### [Virtual Environments]{.eng}
 
-#### Files and Streams
+#### [Files and Streams]{.eng}
 
-#### Unicode
+#### [Unicode]{.eng}
 
 ### Version Control
 
-#### Git
+#### [Git]{.eng}
 
 ### Programming Concerns and Techniques
 
-#### Efficiency
+#### [Efficiency]{.eng}
 
-#### Mutability
+#### [Mutability]{.eng}
 
-#### Side-effects
+#### [Side-effects]{.eng}
