@@ -83,7 +83,7 @@ Using modules to write Python code is the most versatile mode and is recommended
 
 #### [Notebook]{.py}
 
-A mode of using Python popular for demostration or pegagogical purposes is the notebook. It mixes human language text with Python code and sometimes provides a more friendly view of the output (e.g., rendered charts and tables). This style of programming is called _literate programming_. It looks something like this:
+A mode of using Python popular for demonstration or pedagogical purposes is the notebook. It mixes human language text with Python code and sometimes provides a more friendly view of the output (e.g., rendered charts and tables). This style of programming is called _literate programming_. It looks something like this:
 
 ![Example of using a Python notebook](static/notebook.png)
 
@@ -310,7 +310,8 @@ An operator that identifies presence/absence.
 
 #### [if]{.py}
 
-An `if` statement is used for a _conditional block_—code that is executed only if a condition is true. See the Python Tutorial’s section on [`if` Statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
+An `if` statement is used for a _conditional block_—code that is executed only
+if a condition is true. See the Python Tutorial’s section on [`if` Statements](https://docs.python.org/3/tutorial/controlflow.html#if-statements).
 
 Only one thing below will be printed:
 
@@ -324,7 +325,9 @@ Only one thing below will be printed:
         print(word, 'does not exist in vocabulary')
 ```
 
-Note that if you use multiple `if` statements instead of `elif` or `else`, they will be attempted regardless of whether the previous conditions were true. In the following, both will print if both `'Dog'` and `'dog'` are in the vocabulary.
+Note that if you use multiple `if` statements instead of `elif` or `else`,
+they will be attempted regardless of whether the previous conditions were true.
+In the following, both will print if both `'Dog'` and `'dog'` are in the vocabulary.
 
 ```python
     word = 'Dog'
@@ -336,7 +339,10 @@ Note that if you use multiple `if` statements instead of `elif` or `else`, they 
 
 #### [for]{.py}
 
-A `for` statement (also called a for-loop) loops over each item in an iterable. This generally means the loop is bounded by the number of items in the iterable, and it’s used when the iterable items themselves are used inside the loop. See the Python Tutorial’s section on [`for` Statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements).
+A `for` statement (also called a for-loop) loops over each item in an iterable.
+This generally means the loop is bounded by the number of items in the iterable,
+and it’s used when the iterable items themselves are used inside the loop. See
+the Python Tutorial’s section on [`for` Statements](https://docs.python.org/3/tutorial/controlflow.html#for-statements).
 
 ```python
     numbers = [1, 2, 3]
@@ -347,7 +353,10 @@ A `for` statement (also called a for-loop) loops over each item in an iterable. 
 
 #### [while]{.py}
 
-A `while` statement (also called a while-loop) loops as long as a condition is met. This condition can be just about anything, and sometimes it is `True`, meaning an infinite loop. See the Python Tutorial’s example of [`while` statements](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming). While-loops are often used when the number of iterations is not fixed or known in advance, or when there is no iterable whose items are used inside the loop.
+A `while` statement (also called a while-loop) loops as long as a condition is
+met. This condition can be just about anything, and sometimes it is `True`,
+meaning an infinite loop. See the Python Tutorial’s example of [`while` statements](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming). While-loops are often used when the number of iterations is not fixed or known
+in advance, or when there is no iterable whose items are used inside the loop.
 
 ```python
     # print Fibonacci numbers less than 100
@@ -414,7 +423,8 @@ spreadsheets:
 
 ## NLP/CL
 
-This category is for concepts and techniques related to natural language processing or computational linguistics.
+This category is for concepts and techniques related to natural language
+processing or computational linguistics.
 
 ### Concepts
 
@@ -438,7 +448,8 @@ This category is for concepts and techniques related to natural language process
 
 ## Software Engineering
 
-This category is for practices of software engineering as well as programming concepts that are relevant to programming languages beyond Python.
+This category is for practices of software engineering as well as programming
+concepts that are relevant to programming languages beyond Python.
 
 ### Working on a System
 
