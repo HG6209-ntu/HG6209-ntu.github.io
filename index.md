@@ -69,8 +69,8 @@ schedule:
 
   - week: 8
     date: 09 Mar
-    topic: Regular Expressions
-    # url: week8.html
+    topic: Regular Expressions and Algorithmic Thinking
+    url: week8.html
 
   - week: 9
     date: 16 Mar
