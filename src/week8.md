@@ -13,6 +13,26 @@ title: 'Week 8'
 
 (color key: [Python/Programming]{.py} [NLP/CL]{.nlp} [Software Engineering]{.eng})
 
+## Algorithmic Thinking
+
+1. What is the task? What is the minimum I need to do to complete the task?
+
+> *Read the instructions! Laziness is a virtue!*
+
+2. What are the tools and components I have at my disposal? What format or
+structure are they in? How can I access the information I need?
+
+> *Know your basics well! `list`, `dict`, `for`, `in`, etc..*
+
+3. What is the first step? How can I make sure it is working?
+
+> *Start simply! Introduce complexity slowly!*
+
+- Develop using a clear feedback system.
+- Address errors as they arise. Google errors if you don't understand them.
+
+>> Demo: Quiz 1
+
 ## Reading
 
 Please see the slides from M. W. Goodman's 2019 workshop on regular expressions
