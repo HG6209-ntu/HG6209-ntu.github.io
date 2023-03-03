@@ -75,7 +75,7 @@ schedule:
   - week: 9
     date: 16 Mar
     topic: N-Grams and Collocations
-    # url: week9.html
+    url: week9.html
 
   - week: 10
     date: 23 Mar
