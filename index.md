@@ -81,12 +81,13 @@ schedule:
     date: 23 Mar
     topic: Part-of-speech Tagging
     # url: week10.html
-    notes: "[Project 1](project1.html) due"
+    # notes:
 
   - week: 11
     date: 30 Mar
     topic: Classification
     # url: week11.html
+    notes: "[Project 1](project1.html) due"
 
   - week: 12
     date: 06 Apr
