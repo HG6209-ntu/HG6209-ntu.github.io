@@ -3,7 +3,6 @@ title: 'Week 10'
 ---
 
 ## Learning Objectives
--------------------
 
 *   Concepts:
     [pos tagging]{.nlp}

@@ -80,19 +80,19 @@ schedule:
   - week: 10
     date: 23 Mar
     topic: Part-of-speech Tagging
-    # url: week10.html
+    url: week10.html
     # notes:
 
   - week: 11
     date: 30 Mar
     topic: Classification
-    # url: week11.html
+    url: week11.html
     notes: "[Project 1](project1.html) due"
 
   - week: 12
     date: 06 Apr
-    topic: Exploring Software Libraries
-    # url: week12.html
+    topic: Ethics, Language Models, and Software Libraries
+    url: week12.html
 
   - week: 13
     date: 13 Apr

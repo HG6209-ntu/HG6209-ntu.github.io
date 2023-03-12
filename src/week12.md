@@ -79,6 +79,8 @@ The following are some additional libraries for Python that you may find useful 
     *   [https://scikit-learn.org/stable/](https://scikit-learn.org/stable/)
 *   If you are taking/plan to take a course in HPSG:
     *   [https://github.com/delph-in/pydelphin](https://github.com/delph-in/pydelphin)
+*   Transformer models and tools available for experimentation:
+    *   [https://huggingface.co](https://huggingface.co)
 
 There are tons more. E.g., here’s an “Awesome” list of NLP software for Python
 (and other languages): [https://github.com/keon/awesome-nlp#user-content-python](https://github.com/keon/awesome-nlp#user-content-python)
