@@ -15,6 +15,12 @@ title: 'Week 9'
 
 (color key: [Python/Programming]{.py} [NLP/CL]{.nlp} [Software Engineering]{.eng})
 
+## In-class topics
+
+- Project 1
+- Project 2
+- General questions
+
 ## Reading
 
 ### Higher-order and Recursive Functions
