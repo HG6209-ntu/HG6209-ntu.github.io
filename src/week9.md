@@ -319,7 +319,7 @@ language have a clear and complete set of parts-of-speech?
 ### Practical Work
 
 *   Write a recursive function `fib(x)` to compute the [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number) of `x`. Calling
-`fib(1)` should return 1, `fib(5)` returns 8, and so on. What happens if you
+`fib(1)` should return 1, `fib(5)` returns 5, `fib(8)` returns 21, and so on. What happens if you
 call `fib(20)`, `fib(30)`, or `fib(40)`? (use Ctrl-C to kill a stuck process).
 Now try rewriting the recursive function as an iterative function. Can you go
 higher than `fib(40)`?
