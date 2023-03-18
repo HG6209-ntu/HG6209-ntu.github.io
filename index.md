@@ -59,7 +59,7 @@ schedule:
   - week: 7
     date: 23 Feb
     topic: Mid-review; Working with Software Projects
-    notes: Midterm Quiz
+    notes: "[Midterm Quiz](static/quiz1_modelsolution.py)"
     url: week7.html
 
   - week: --
