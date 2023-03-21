@@ -23,7 +23,7 @@ title: 'Week 10'
 
 *   [Cross-validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics))
 
-    K-fold cross validation is a common in NLP:
+    K-fold cross validation is a common practice in NLP:
 
     > In K-fold cross-validation, the original sample is randomly partitioned
     into K subsamples. Of the K subsamples, a single subsample is retained as
