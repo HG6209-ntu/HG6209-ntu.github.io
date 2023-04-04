@@ -1,7 +1,8 @@
-   HG2051 – Final Review code{white-space: pre-wrap;} span.smallcaps{font-variant: small-caps;} span.underline{text-decoration: underline;} div.column{display: inline-block; vertical-align: top; width: 50%;}  
+---
+title: 'HG2051 AY2022-23 – Final Review'
+---
 
-Final Review
-============
+# Final Review
 
 *   [Final Topics](#final-topics)
 *   [Learning Objectives](#learning-objectives)
@@ -17,8 +18,7 @@ Final Review
         *   [Regular Expressions](#regular-expressions)
         *   [Advanced Functions](#advanced-functions)
 
-Final Topics
-============
+# Final Topics
 
 *   Python/Programming
     *   `re` module (`re.match()`, `re.search()`, `re.fullmatch()`, `re.sub()`)
@@ -44,11 +44,9 @@ Final Topics
     *   Higher-order Functions
     *   Recursive Functions
 
-Learning Objectives
-===================
+# Learning Objectives
 
-Python/Programming
-------------------
+## Python/Programming
 
 This category is for programming concepts, techniques, and structures as used in Python.
 
@@ -68,8 +66,7 @@ This category is for programming concepts, techniques, and structures as used in
 
 #### `filter()`
 
-NLP/CL
-------
+## NLP/CL
 
 This category is for concepts and techniques related to natural language processing or computational linguistics.
 
@@ -166,8 +163,7 @@ This category is for concepts and techniques related to natural language process
     *   overexposure / underexposure
     *   dual-use
 
-Software Engineering
---------------------
+## Software Engineering
 
 This category is for practices of software engineering as well as programming concepts that are relevant to programming languages beyond Python.
 

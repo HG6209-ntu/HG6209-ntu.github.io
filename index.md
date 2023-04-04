@@ -97,6 +97,7 @@ schedule:
   - week: 13
     date: 13 Apr
     topic: Review and Final Quiz
+    notes: "[Final Review](final-review.html)"
     # url: week13.html
 
   - week: 14
@@ -112,6 +113,7 @@ schedule:
 - [Using Visual Studio Code](using-vscode.html) -- how to get, complete, and submit assignments
 - [Glossary](glossary.html) -- definitions of some technical terms
 - [Midterm Review](midterm-review.html)
+- [Final Review](final-review.html)
 
 ## Grading Criteria
 
