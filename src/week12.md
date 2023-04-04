@@ -12,11 +12,16 @@ a huge industry with many consumer-facing products (e.g., Google Translate,
 Siri, autocomplete, etc.) and other applied systems (stock market prediction,
 risk assessment, hate speech detection, etc.). Unfortunately, the explosion
 of popularity did not coincide with increased understanding of the ethical
-questions particular to the field.
+questions particular to the field. And as the recent release of ChatGPT has
+shown, this has not changed in the intervening years.
 
-Please read the following short paper as a broad overview of the problems:
+Please read the following short papers as a broad overview of the problems:
 
 *   Dirk Hovy and Shannon L. Spruit. [The Social Impact of Natural Language Processing](https://www.aclweb.org/anthology/P16-2096.pdf). In the _Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics_. 2016.
+*   Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell.
+[On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜](https://dl.acm.org/doi/10.1145/3442188.3445922). FAccT '21: Proceedings of
+the 2021 ACM Conference on Fairness, Accountability, and Transparency. Pages
+610–623. 2021. https://doi.org/10.1145/3442188.3445922
 
 **Questions**
 

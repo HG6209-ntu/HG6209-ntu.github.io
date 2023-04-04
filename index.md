@@ -98,6 +98,11 @@ schedule:
     date: 13 Apr
     topic: Review and Final Quiz
     # url: week13.html
+
+  - week: 14
+    date: 21 Apr
+    topic: No class
+    # url: week14.html
     notes: "[Project 2](project2.html) due"
 ---
 
