@@ -97,7 +97,7 @@ schedule:
   - week: 13
     date: 13 Apr
     topic: [Review](final-review.html) and Final Quiz
-    notes: "Final Quiz"
+    notes: "Final Quiz (in-class)"
     # url: week13.html
 
   - week: 14
