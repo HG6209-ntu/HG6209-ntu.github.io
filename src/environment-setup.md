@@ -182,7 +182,7 @@ spaces in them.
 Once your folder is created, open Visual Studio Code and open the folder you
 just created via *File* > *Open Folder*. You will see something like this:
 
-![*Empty HG2051 Workspace*](static/empty-workspace.png)
+![*Empty HG2051 Workspace*](static/empty-workspace.png){ width=100% }
 
 Note the "Explorer" side bar (top-left), which is a file and folder
 view. It shows that you are in the "HG2051" folder. In the terminal
@@ -213,7 +213,7 @@ and has it create one called "env" (you can name it whatever you like,
 but let's stick with "env"). If successful, it will look like the
 following. If it did not succeed, please contact me.
 
-![*Creating a Virtual Environment*](static/create-env.png)
+![*Creating a Virtual Environment*](static/create-env.png){ width=100% }
 
 Now notice in the Explorer side bar that the "env" folder is created. In
 the terminal, I also executed the `ls` command, which lists the contents
@@ -351,7 +351,7 @@ environment active (the shell type will say "Python" instead of "bash"
 or "PowerShell") and execute the Python file. You should see "hello" in
 the terminal output of the command.
 
-![*Running hello.py*](static/run-hello-py.png)
+![*Running hello.py*](static/run-hello-py.png){ width=100% }
 
 While it is nice to be able to use the "play" button to run a whole script
 or parts of the code from a script, our goal with this course is to learn

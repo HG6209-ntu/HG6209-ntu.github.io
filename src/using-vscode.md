@@ -15,7 +15,7 @@ For the purposes of our workflow, we will make use of three elements: the
 *file explorer*, the *editor*, and the *terminal*. By the end of the course
 you should be comfortable moving between these elements to develop your code.
 
-![*Three elements of the development environment*](static/dev-environment.png)
+![*Three elements of the development environment*](static/dev-environment.png){ width=100% }
 
 ### File explorer
 
@@ -91,7 +91,7 @@ directed to GitHub and it will give you the URL of your newly created
 project. Now we can download ("clone") the repository. From the project
 page, copy the URL of the Git repository via the green "Code" button:
 
-![*Copy the Repository URL*](static/github-git-url.png)
+![*Copy the Repository URL*](static/github-git-url.png){ width=100% }
 
 Now go to Visual Studio Code and select the terminal. Make sure that your
 location is the HG2051 base directory that you created earlier. Type the command
@@ -100,7 +100,7 @@ to paste in the URL, then <kbd>Enter</kbd>. This will "clone" your project
 into a subdirectory of your current directory, and allow you to push any
 saved/committed changes to the online repository.
 
-![*Clone the Repository*](static/vscode-git-clone.png)
+![*Clone the Repository*](static/vscode-git-clone.png){ width=100% }
 
 Once it has downloaded, you'll see its folder in the explorer sidebar.
 Visual Studio Code should ask if you wish to open the folder or add it
@@ -170,4 +170,4 @@ quotes). You can also simply type `git add .` to add all the changes in a
 directory at once. You are then ready to update the online repository with
 the command `git push`.
 
-![*Committing and Syncing Changes*](static/commit-and-sync.png)
+![*Committing and Syncing Changes*](static/commit-and-sync.png){ width=100% }
