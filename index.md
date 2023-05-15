@@ -3,9 +3,8 @@ title: Language and the Computer (AY2023)
 instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
-date: "TBA"
-location: "TBA"
-#>
+#date: "TBA"
+#location: >
 #  [TR+65](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/5b919a593c90401d8723f308) (SS1-B1-03, South Spine)
 
 abstract: >
