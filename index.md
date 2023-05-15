@@ -4,8 +4,9 @@ instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
 date: "TBA"
-location: >
-  [TR+65](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/5b919a593c90401d8723f308) (SS1-B1-03, South Spine)
+location: "TBA"
+#>
+#  [TR+65](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/5b919a593c90401d8723f308) (SS1-B1-03, South Spine)
 
 abstract: >
   Traditionally linguistic analysis was done largely by hand, but
@@ -21,89 +22,89 @@ abstract: >
 
 schedule:
   - week: 1
-    date: 12 Jan
+    date: TBA
     topic: What is Computational Linguistics? Why do it? Why use Python? CS basics
-    url: week1.html
+    # url: week1.html
     notes: "[Environment Setup](environment-setup.html), [Using VS Code](using-vscode.html)"
 
   - week: 2
-    date: 19 Jan
+    date: TBA
     topic: Basic Types and Data Structures; Using Python to Count Things; Lists
     # url: week2.html
     # notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
   - week: 3
-    date: 26 Jan
+    date: TBA
     topic: Assignment, Expressions, and Control; Strings
     # url: week3.html
     # notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
-    date: 02 Feb
+    date: TBA
     topic: Text Corpora and Conditional Frequencies
     # url: week4.html
     # notes: "[notebook](static/week4-practice.ipynb)"
 
   - week: 5
-    date: 09 Feb
+    date: TBA
     topic: Lexical Resources and WordNet
     # url: week5.html
     # notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
-    date: 16 Feb
+    date: TBA
     topic: Processing Raw Text
     # url: week6.html
     # notes: "[notebook](static/week6-practice.ipynb)"
 
   - week: 7
-    date: 23 Feb
+    date: TBA
     topic: Mid-review; Working with Software Projects
     # notes: "[Midterm Quiz](static/quiz1_modelsolution.py)"
     # url: week7.html
 
   - week: --
-    date: 02 Mar
+    date: TBA
     topic: Recess
     # cancelled: true
 
   - week: 8
-    date: 09 Mar
+    date: TBA
     topic: Regular Expressions and Algorithmic Thinking
     # url: week8.html
 
   - week: 9
-    date: 16 Mar
+    date: TBA
     topic: N-Grams and Collocations
     # url: week9.html
 
   - week: 10
-    date: 23 Mar
+    date: TBA
     topic: Part-of-speech Tagging
     # url: week10.html
     # notes:
 
   - week: 11
-    date: 30 Mar
+    date: TBA
     topic: Classification
     # url: week11.html
     # notes: "[Project 1](project1.html) due"
 
   - week: 12
-    date: 06 Apr
+    date: TBA
     topic: Ethics, Language Models, and Software Libraries
     # url: week12.html
 
   - week: 13
-    date: 13 Apr
+    date: TBA
     topic: Review and Final Quiz
     # url: final-review.html
     # notes: "Final Quiz (in-class)"
 
   - week: 14
-    date: 21 Apr
-    topic: No class
+    date: TBA
+    topic: Extras
     # url: week14.html
     # notes: "[Project 2](project2.html) due"
 ---

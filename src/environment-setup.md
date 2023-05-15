@@ -9,7 +9,9 @@ experience, regardless of platform (Windows, macOS, Linux). We will also
 create a [workspace](#workspace) on our computers for storing work,
 Python dependencies, software preferences, etc.; test out the creation
 of a [virtual environment](#virtual-environment); and [make sure it all
-works](#test-it-out).
+works](#test-it-out). Our goal by the end is to have a coding environment
+that enables a programmer's [workflow](#workflow) so we can learn to
+code efficiently and write programs that work.
 
 ## Python
 
@@ -132,7 +134,8 @@ many distributions: <https://git-scm.com/download/linux>
 
 Visual Studio Code is the program we use to write code. It also assists
 with running tests and tracking changes with Git, as well as other
-advanced features for developers.
+advanced features for developers, but we will not be exploring these for
+the most part.
 
 For all platforms you can download an installer from
 <https://code.visualstudio.com/>.
@@ -170,10 +173,14 @@ Now that the software is installed, we need a place to work in. This
 workspace is a folder (directory) somewhere on your computer (e.g., on
 the Desktop or whatever makes sense to you). Create it in whatever
 method you like (e.g., in Windows Explorer or Finder or in a terminal).
-For these instructions I will assume you named it "HG2051".
+For these instructions I will assume you named it "HG2051". This also
+assumes that you know what folders are and how files/folders are organized
+on your computer. We will be going over the basics of this in the first
+week of class, but for now you should try to avoid folder names with
+spaces in them.
 
-Once it is created, open Visual Studio Code and open the folder you just
-created via *File* > *Open Folder*. You will see something like this:
+Once your folder is created, open Visual Studio Code and open the folder you
+just created via *File* > *Open Folder*. You will see something like this:
 
 ![*Empty HG2051 Workspace*](static/empty-workspace.png)
 
@@ -189,8 +196,8 @@ platform you're using.
 
 The next step here is to create a virtual environment, which is a
 subfolder that contains the Python packages we will use for this course.
-While in principle we could use one virtual environment for the whole
-course, in practice it's easier to make one for each assignment.
+We will use one virtual environment for the whole course, though it is
+typical to use different environments for different projects.
 
 #### Creating the Virtual Environment
 
@@ -309,7 +316,7 @@ If all was successful, you should be able to do the following two things.
 
 #### Install the `pytest` Dependency
 
-We will use [pytest][] for automatic evaluation of our homework
+We will use [pytest][] for automatic evaluation of some of our homework
 assignments. Once the virtual environment is active, run the following
 command:
 
@@ -345,6 +352,25 @@ or "PowerShell") and execute the Python file. You should see "hello" in
 the terminal output of the command.
 
 ![*Running hello.py*](static/run-hello-py.png)
+
+While it is nice to be able to use the "play" button to run a whole script
+or parts of the code from a script, our goal with this course is to learn
+how to create complete programs that run without errors. For this reason,
+you should avoid using the "play" button for the time being.
+
+## Workflow
+
+The workflow we will follow makes use of three elements: the *file explorer*,
+the *editor*, and the *terminal*. You should become comfortable with moving
+between these elements as you develop your code. Your file explorer is where
+your programming files are located, along with various subfolders for
+organizational purposes. When you open a file to work on it, it opens in
+your editor, which allows you to write/modify code. After saving your work,
+you switch to the terminal to run the file and check that it functions. Going
+back and forth gives you immediate feedback and allows you to catch errors
+in order to fix them and achieve working code. For more details, a brief
+guide related to this course is provided in [Using VS Code](using-vscode.html),
+with additional links to more comprehensive resources.
 
 [python]: https://www.python.org/
 [vscode]: https://code.visualstudio.com/

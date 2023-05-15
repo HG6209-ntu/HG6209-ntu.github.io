@@ -62,8 +62,10 @@ deploy:
 	git push -f origin $(BRANCH) && \
 	git checkout master
 	rm -rf "$(BRANCH)"
+	rm -rf "AY2022"
 
 clean:
 	rm -rf "$(BRANCH)"
+	rm -rf "AY2022"
 
 .PHONY: html clean

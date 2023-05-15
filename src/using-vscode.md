@@ -11,18 +11,76 @@ In addition, when you start Visual Studio Code and get the welcome
 screen, there's a "Learn" section with some interactive ways to learn
 about the program from within the program.
 
+For the purposes of our workflow, we will make use of three elements: the
+*file explorer*, the *editor*, and the *terminal*. By the end of the course
+you should be comfortable moving between these elements to develop your code.
+
+![*Three elements of the development environment*](static/dev-environment.png)
+
+### File explorer
+
+This is where your programming files are located, along with various subfolders
+for organizational purposes. When you set up your environment you created a
+virtual environment (`env` in the image above) which is essentially a
+subfolder that stores all the libraries and packages you use in your code.
+You should not need to access this subfolder, so you can ignore it. You will
+create subfolders for each of your homework assignments and projects, however,
+so it's good to be aware of how the file explorer is organized.
+
+### Editor
+
+When you open a file to work on, it opens in your editor, which allows you to
+write/modify code. Visual Studio Code, like many editors, can recognize the
+syntax/commands of various programming languages. If your file is saved with
+a `.py` extension, it will recognize the file as being written in the Python
+programming language and will provide various colors and highlighting that
+makes the code easier to read and debug. The line numbers are also helpful
+for allowing you to find errors quickly when you are running your code.
+
+### Terminal
+
+After saving your work (<kbd>Ctrl-s</kbd> or <kbd>Cmd-s</kbd>), the terminal
+is where you can run the file. This is also known as the "command line
+interface" (CLI) since it is used for running commands. As you type commands,
+notice the prefix that precedes them, composed of 3 parts separated by spaces
+in the screenshot above.
+
+1. The first part `(env)` identifies that the virtual environment is active.
+This should always be the case when you are running code. The environment was
+activated by the command `source env/bin/activate`.
+2. The second part is the name of the user and the name of the computer being
+used.
+3. The third part `HG2051` is the name of the folder (location) where the
+commands are being run.
+
+The command line or terminal is where you will run your code to check that
+it functions. To run a Python file, simply type the command `python` (or
+`python3`) followed by a space and the name of the python script (typing the
+extension is optional). To speed things up, you are usually able to simply
+type the first few characters of the name of the script and use the <kbd>Tab</kbd>
+key to autocomplete it. Then press <kbd>Enter</kbd> or <kbd>Return</kbd> to
+run the script. If there are no errors, you will see nothing in the terminal
+unless you have written `print()` statements into the code.
+
+Going back and forth between each of these elements of your development
+environment gives you immediate feedback and allows you to catch errors
+in order to fix them and achieve working code. We will be following this
+workflow throughout the course to improve as coders.
+
 ## The Command Palette
 
-One feature I would like to point out is the "command palette", which is
-opened by <kbd>F1</kbd> on all platforms, or <kbd>Ctrl-Shift-P</kbd> on
-Windows/Linux or <kbd>⇧⌘P</kbd> on macOS, or via the menu *View* >
+One additional feature I would like to point out in VSCode is the "command
+palette", which is opened by <kbd>F1</kbd> on all platforms, or <kbd>Ctrl-Shift-P</kbd>
+on Windows/Linux or <kbd>⇧⌘P</kbd> on macOS, or via the menu *View* >
 *Command Palette*. This acts like a search of menu items and allows
 access to some features not in the menus. In particular, when you have a
 Python interpreter selected, you can search for "Python: Create
 Terminal" (or some abbreviation, e.g., `pyterm` is probably sufficient),
 which opens a terminal with the appropriate virtual environment already
 active. Another useful command is "Python: Configure Tests", which helps
-you setup `pytest` for testing your code.
+you setup `pytest` for testing your code. Since we are primarily using the
+terminal, we will not be spending much time using the command palette, but
+it is a good thing to be aware of as you develop your coding skills.
 
 ![*Using the Command Palette*](static/command-palette.png)
 
@@ -35,14 +93,12 @@ page, copy the URL of the Git repository via the green "Code" button:
 
 ![*Copy the Repository URL*](static/github-git-url.png)
 
-Now go to Visual Studio Code and pull up the command palette. Type
-"clone" and select "Git: clone", then paste the URL you copied and
-select "Clone from URL". You may alternatively do "Clone from GitHub"
-and search for your repository by typing "ntu-hg2051/" and the name of
-the repository. In this case you don't need to get the URL from the
-project page. Visual Studio Code will next ask you where to store the
-repository. This is the folder into which the repository will be cloned,
-so you should choose your "HG2051" folder.
+Now go to Visual Studio Code and select the terminal. Make sure that your
+location is the HG2051 base directory that you created earlier. Type the command
+`git clone` followed by a space, and then <kbd>Ctrl-v</kbd> or <kbd>Cmd-v</kbd>
+to paste in the URL, then <kbd>Enter</kbd>. This will "clone" your project
+into a subdirectory of your current directory, and allow you to push any
+saved/committed changes to the online repository.
 
 ![*Clone the Repository*](static/vscode-git-clone.png)
 
@@ -56,12 +112,14 @@ are not using).
 ## Working on Assignments
 
 With an assignment cloned and its folder opened in Visual Studio Code,
-you should now create a virtual environment for the assignment. Follow
-the instructions for [creating a virtual
-environment](environment-setup.html#virtual-environment), but using your
-assignment folder instead of "HG2051". When you're done, ensure it works
-by using the command palette to create a new Python terminal. You should
-see `(env)` at the beginning of the prompt.
+ensure that your virtual environment for the course is activated. Follow
+the instructions for [creating a virtual environment](environment-setup.html#virtual-environment)
+if you have not done so. When you're done, you should see `(env)` at the
+beginning of the terminal window prompt if it has been activated. If not,
+activate it using the activation command for your operating system, ensuring
+that you do so from the base HG2051 directory you created earlier. Now navigate
+to your assignment folder using the `cd [assignment-subfolder]` command in
+the terminal to change directories.
 
 At this point you should install the dependencies:
 
@@ -97,17 +155,19 @@ file for this, just ensure it has `_test.py` in the name, such as
 
 When you've saved some files in your assignment, you'll notice the SCM
 icon (a Git graph with 3 nodes on the left) has a number in a circle
-indicating how many files have been modified. When you're ready to
-commit some or all of those changes, click that icon to get the
-source-control view. Files with an **M** are "modified", those with
-**U** are "untracked" (i.e., new to Git), and those with **D** are
-"deleted" (i.e., tracked in Git, but deleted locally). All of these
-changes need to be "added" to Git (even deleted files) in order to be
-recorded in the repository's history. To add a change, hover your mouse
-over a file name and click the `+` icon to stage a change. When you're
-finished staging changes, type in a commit message in the "Message" box
-and click the checkmark to commit. Once you've made one or more commits,
-don't forget to "sync" the commits with GitHub by clicking the
-circular-arrow icon at the bottom of the window.
+indicating how many files have been modified. This is a visual way of
+identifying and committing changes in your repository. However, we will
+focus first on understanding the terminal commands related to Git (we
+will cover this in the first few classes).
 
-![*Committing and Syncing Changes*](static/commit-and-sync.gif)
+For now, after you've made some changes and saved your file, type the
+command `git status`. This will show you what has changed in your current
+directory's contents, including subfolders. To have Git update any files
+you first need to *add* them to the tracker using `git add [name-of-file]`
+and then *commit* all your added files with a message that reminds you
+of your changes using `git commit -m "your message here"` (don't forget the
+quotes). You can also simply type `git add .` to add all the changes in a
+directory at once. You are then ready to update the online repository with
+the command `git push`.
+
+![*Committing and Syncing Changes*](static/commit-and-sync.png)
