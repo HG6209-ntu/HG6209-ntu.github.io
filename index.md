@@ -137,6 +137,7 @@ open-source project. Contact me for details.
   - The Python Tutorial (official docs) -- <https://docs.python.org/3/tutorial/>
   - The Python Standard Library (official docs) -- <https://docs.python.org/3/library/index.html>
   - Learn Python in 10 Minutes (quick guide) -- <https://www.stavros.io/tutorials/python/>
+  - Learn Python the Hard Way (beginner's guide) -- <https://learnpythonthehardway.org/book/>
   - Dive Into Python 3 (free ebook) -- <https://diveintopython3.problemsolving.io/>
 - Git -- <https://git-scm.com/>
   - Official documentation (manuals, cheat sheets, videos) -- <https://git-scm.com/doc>
