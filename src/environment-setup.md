@@ -188,7 +188,7 @@ Note the "Explorer" side bar (top-left), which is a file and folder
 view. It shows that you are in the "HG2051" folder. In the terminal
 panel (bottom-right), the prompt indicates the same thing, i.e., that
 you are in the "HG2051" folder. If you don't see the terminal, try
-pressing <kbd>Ctrl-`</kbd>, or use the menu *View* > *Terminal*. Note
+pressing <kbd>Ctrl-\`</kbd>, or use the menu *View* > *Terminal*. Note
 that your prompt may look a bit different, depending on which shell and
 platform you're using.
 
@@ -262,9 +262,7 @@ Then, to allow  the current session to activate the virtual environment,
 you can change Visual Studio Code's settings so PowerShell can run these
 scripts. One thing to try is to open the settings by typing <kbd>Ctrl-,</kbd>
 or use the menu *File* > *Preferences* > *Settings*, then search for the
-following setting:
-
-    `terminal.integrated.shellArgs.windows`
+following setting: `terminal.integrated.shellArgs.windows`
 
 ![*Finding the Setting*](static/windows-find-executionpolicy-setting.png)
 
@@ -299,9 +297,9 @@ can do this by navigating to the 'Apps and programs' section of the
 settings page and deselecting the shortcut option there.
 
 Another concern with Windows is that `bash` commands are not enabled by
-default in PowerShell, resulting in errors. The `Bash` program is
+default in PowerShell, resulting in errors. The *Bash* program is
 installed by Git and used for committing and pushing changes, among other
-things. To ensure that bash commands are enabled, run the following
+things. To ensure that `bash` commands are enabled, run the following
 command in your terminal:
 
 ```{.bash .terminal}
@@ -360,17 +358,22 @@ you should avoid using the "play" button for the time being.
 
 ## Workflow
 
-The workflow we will follow makes use of three elements: the *file explorer*,
-the *editor*, and the *terminal*. You should become comfortable with moving
-between these elements as you develop your code. Your file explorer is where
+The workflow we will follow makes use of three elements: the
+<mark style="background-color: pink">**file explorer**</mark>,
+the <mark style="background-color: lightgreen">**editor**</mark>, and the
+<mark style="background-color: lightblue">**terminal**</mark>. You should
+become comfortable with moving between these elements as you develop your code.
+Your <mark style="background-color: pink">**file explorer**</mark> is where
 your programming files are located, along with various subfolders for
 organizational purposes. When you open a file to work on it, it opens in
-your editor, which allows you to write/modify code. After saving your work,
-you switch to the terminal to run the file and check that it functions. Going
-back and forth gives you immediate feedback and allows you to catch errors
-in order to fix them and achieve working code. For more details, a brief
-guide related to this course is provided in [Using VS Code](using-vscode.html),
-with additional links to more comprehensive resources.
+your <mark style="background-color: lightgreen">**editor**</mark>, which
+allows you to write/modify code. After saving your work, you switch to the
+<mark style="background-color: lightblue">**terminal**</mark> to run the file
+and check that it functions. Going back and forth gives you immediate feedback
+and allows you to catch errors in order to fix them and achieve working code.
+For more details, a brief guide related to this course is provided in
+[Using VS Code](using-vscode.html), with additional links to more comprehensive
+resources.
 
 [python]: https://www.python.org/
 [vscode]: https://code.visualstudio.com/

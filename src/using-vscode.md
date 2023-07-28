@@ -12,8 +12,11 @@ screen, there's a "Learn" section with some interactive ways to learn
 about the program from within the program.
 
 For the purposes of our workflow, we will make use of three elements: the
-*file explorer*, the *editor*, and the *terminal*. By the end of the course
-you should be comfortable moving between these elements to develop your code.
+<mark style="background-color: pink">**file explorer**</mark>, the
+<mark style="background-color: lightgreen">**editor**</mark>, and the
+<mark style="background-color: lightblue">**terminal**</mark>. By the end of
+the course you should be comfortable moving between these elements to develop
+your code.
 
 ![*Three elements of the development environment*](static/dev-environment.png){ width=100% }
 
@@ -25,11 +28,13 @@ virtual environment (`env` in the image above) which is essentially a
 subfolder that stores all the libraries and packages you use in your code.
 You should not need to access this subfolder, so you can ignore it. You will
 create subfolders for each of your homework assignments and projects, however,
-so it's good to be aware of how the file explorer is organized.
+so it's good to be aware of how the <mark style="background-color:
+pink">**file explorer**</mark> is organized.
 
 ### Editor
 
-When you open a file to work on, it opens in your editor, which allows you to
+When you open a file to work on, it opens in your <mark
+style="background-color: lightgreen">**editor**</mark>, which allows you to
 write/modify code. Visual Studio Code, like many editors, can recognize the
 syntax/commands of various programming languages. If your file is saved with
 a `.py` extension, it will recognize the file as being written in the Python
@@ -39,7 +44,8 @@ for allowing you to find errors quickly when you are running your code.
 
 ### Terminal
 
-After saving your work (<kbd>Ctrl-s</kbd> or <kbd>Cmd-s</kbd>), the terminal
+After saving your work (<kbd>Ctrl-s</kbd> or <kbd>Cmd-s</kbd>), the
+<mark style="background-color: lightblue">**terminal**</mark>
 is where you can run the file. This is also known as the "command line
 interface" (CLI) since it is used for running commands. As you type commands,
 notice the prefix that precedes them, composed of 3 parts separated by spaces
@@ -53,7 +59,8 @@ used.
 3. The third part `HG2051` is the name of the folder (location) where the
 commands are being run.
 
-The command line or terminal is where you will run your code to check that
+The command line or <mark style="background-color: lightblue">
+**terminal**</mark> is where you will run your code to check that
 it functions. To run a Python file, simply type the command `python` (or
 `python3`) followed by a space and the name of the python script (typing the
 extension is optional). To speed things up, you are usually able to simply
@@ -66,6 +73,11 @@ Going back and forth between each of these elements of your development
 environment gives you immediate feedback and allows you to catch errors
 in order to fix them and achieve working code. We will be following this
 workflow throughout the course to improve as coders.
+
+If you are still unclear on how these elements are connected, a good overview
+can be found [here](https://faculty.washington.edu/otoomet/info201-book/command-line.html) -
+this overview starts with the terminal or command line and explains how to use
+commands to navigate your folder structure. 
 
 ## The Command Palette
 

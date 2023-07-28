@@ -3,9 +3,9 @@ title: Language and the Computer (AY2023)
 instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
-#date: "TBA"
-#location: >
-#  [TR+65](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/5b919a593c90401d8723f308) (SS1-B1-03, South Spine)
+date: "Fridays, 12:30-3:20pm (Sem1)"
+location: >
+  [TR+29](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/e97bc9bf4c6740ca8f3d35cc) (LHS-B2-06, The Hive)
 
 abstract: >
   Traditionally linguistic analysis was done largely by hand, but
@@ -21,88 +21,94 @@ abstract: >
 
 schedule:
   - week: 1
-    date: TBA
+    date: 18 Aug
     topic: What is Computational Linguistics? Why do it? Why use Python? CS basics
     # url: week1.html
-    notes: "[Environment Setup](environment-setup.html), [Using VS Code](using-vscode.html)"
+    notes: "[Setup](environment-setup.html), [VS_Code](using-vscode.html)"
 
   - week: 2
-    date: TBA
+    date: 25 Aug
     topic: Basic Types and Data Structures; Using Python to Count Things; Lists
     # url: week2.html
     # notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
   - week: 3
-    date: TBA
+    date: 01 Sep
     topic: Assignment, Expressions, and Control; Strings
     # url: week3.html
     # notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
+  - week: --
+    date: 08 Sep
+    topic: Students Union Day, no class
+    cancelled: true
+
   - week: 4
-    date: TBA
+    date: 15 Sep
     topic: Text Corpora and Conditional Frequencies
     # url: week4.html
     # notes: "[notebook](static/week4-practice.ipynb)"
 
   - week: 5
-    date: TBA
+    date: 22 Sep
     topic: Lexical Resources and WordNet
     # url: week5.html
     # notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
-    date: TBA
+    date: 29 Sep
     topic: Processing Raw Text
     # url: week6.html
     # notes: "[notebook](static/week6-practice.ipynb)"
 
+  - week: --
+    date: 06 Oct
+    topic: Recess
+    cancelled: true
+
   - week: 7
-    date: TBA
+    date: 13 Oct
     topic: Mid-review; Working with Software Projects
-    # notes: "[Midterm Quiz](static/quiz1_modelsolution.py)"
+    notes: "Coding challenge"
+    #[Midterm Quiz](static/quiz1_modelsolution.py)"
     # url: week7.html
 
-  - week: --
-    date: TBA
-    topic: Recess
-    # cancelled: true
-
   - week: 8
-    date: TBA
+    date: 20 Oct
     topic: Regular Expressions and Algorithmic Thinking
     # url: week8.html
 
   - week: 9
-    date: TBA
+    date: 27 Oct
     topic: N-Grams and Collocations
     # url: week9.html
 
   - week: 10
-    date: TBA
+    date: 03 Nov
     topic: Part-of-speech Tagging
     # url: week10.html
     # notes:
 
   - week: 11
-    date: TBA
+    date: 10 Nov
     topic: Classification
     # url: week11.html
     # notes: "[Project 1](project1.html) due"
 
   - week: 12
-    date: TBA
+    date: 17 Nov
     topic: Ethics, Language Models, and Software Libraries
     # url: week12.html
 
   - week: 13
-    date: TBA
+    date: 24 Nov
     topic: Review and Final Quiz
     # url: final-review.html
-    # notes: "Final Quiz (in-class)"
+    notes: "Coding challenge"
 
   - week: 14
-    date: TBA
+    date: 01 Dec
     topic: Extras
     # url: week14.html
     # notes: "[Project 2](project2.html) due"
