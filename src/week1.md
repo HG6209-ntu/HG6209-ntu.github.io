@@ -6,6 +6,12 @@ title: 'Week 1'
 
 * Introduction to HG2051 ([slides](static/Wk01_slides.pdf))
 * Python programming for beginners: [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
+* Basic computer science concepts: [File structure and command line operations](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet)
+
+   Read [this](https://faculty.washington.edu/otoomet/info201-book/command-line.html)
+   for a more in-depth guide to file structure and command line operations. And read
+   [this](https://www.freecodecamp.org/news/an-introduction-to-operating-systems/)
+   for a bit more history.
 
 ## Environment Setup
 

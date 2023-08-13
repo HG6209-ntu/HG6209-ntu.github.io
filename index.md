@@ -23,7 +23,7 @@ schedule:
   - week: 1
     date: 18 Aug
     topic: What is Computational Linguistics? Why do it? Why use Python? CS basics
-    # url: week1.html
+    url: week1.html
     notes: "[Setup](environment-setup.html), [VS_Code](using-vscode.html)"
 
   - week: 2

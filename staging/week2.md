@@ -4,13 +4,6 @@ title: 'Week 2'
 
 ## Lecture
 
-[File structure and command line operations](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet)
-
-Also read [this](https://faculty.washington.edu/otoomet/info201-book/command-line.html)
-for a more in-depth guide to file structure and command line operations. And read
-[this](https://www.freecodecamp.org/news/an-introduction-to-operating-systems/)
-for a bit more history.
-
 Review of Homework 1
 
 [Getting Started with Python (Lists)](static/OOPython-Lists.pdf): Slides
