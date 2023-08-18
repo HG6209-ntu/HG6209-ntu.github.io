@@ -11,7 +11,7 @@ from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 
 ## Learning Objectives
 
-* Data types: [`int`]{.py} [`float`]{.py} [`str`]{.py} [`list`]{.py} [`set`]{.py}
+* Data types: [int]{.py} [float]{.py} [str]{.py} [list]{.py} [set]{.py}
 * Concepts: [assignment]{.py} [functions]{.py} [types-vs-tokens]{.nlp} [tokenization]{.nlp} [normalization]{.nlp} [frequency distributions]{.nlp} [unit tests]{.eng}
 * Tools: [notebooks]{.eng} [NLTK]{.nlp}
 
