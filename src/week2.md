@@ -4,6 +4,9 @@ title: 'Week 2'
 
 ## Lecture
 
+Review of basic CS concepts: command line interface, folder/directory structure,
+programs, scripts
+
 Review of Homework 1
 
 [Getting Started with Python (Lists)](static/OOPython-Lists.pdf): Slides
