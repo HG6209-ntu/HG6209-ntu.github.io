@@ -4,13 +4,15 @@ title: 'Week 2'
 
 ## Lecture
 
-Review of basic CS concepts: command line interface, folder/directory structure,
-programs, scripts
+Review of basic concepts: OS, command line interface, folder/directory structure,
+programs, scripts, Python, virtual environment, package manager
 
 Review of Homework 1
 
 [Getting Started with Python (Lists)](static/OOPython-Lists.pdf): Slides
 from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
+
+Installing the Natural Language Toolkit (NLTK)
 
 ## Learning Objectives
 
