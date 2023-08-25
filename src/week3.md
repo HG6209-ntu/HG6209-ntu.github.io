@@ -12,9 +12,9 @@ from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 ## Learning Objectives
 
 * Data types:
-  [`str`]{.py}
-  [`list`]{.py}
-  [`set`]{.py}
+  [str]{.py}
+  [list]{.py}
+  [set]{.py}
 * Concepts:
   [comparisons]{.py}
   [conditionals]{.py}

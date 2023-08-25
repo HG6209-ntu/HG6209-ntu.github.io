@@ -35,8 +35,8 @@ schedule:
   - week: 3
     date: 01 Sep
     topic: Assignment, Expressions, and Control; Strings
-    # url: week3.html
-    # notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
+    url: week3.html
+    notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: --
     date: 08 Sep
@@ -94,6 +94,7 @@ schedule:
     date: 10 Nov
     topic: Classification
     # url: week11.html
+    notes: "Project 1 due"
     # notes: "[Project 1](project1.html) due"
 
   - week: 12
@@ -111,6 +112,7 @@ schedule:
     date: 01 Dec
     topic: Extras
     # url: week14.html
+    notes: "Project 2 due"
     # notes: "[Project 2](project2.html) due"
 ---
 
