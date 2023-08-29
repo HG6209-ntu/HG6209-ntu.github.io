@@ -32,16 +32,16 @@ schedule:
     url: week2.html
     notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
-  - week: 3
+  - week: --
     date: 01 Sep
-    topic: Assignment, Expressions, and Control; Strings
+    topic: Polling Day, no class
+    cancelled: true
+
+  - week: 3
+    date: 08 Sep
+    topic: Assignment, Expressions, and Control; Strings (abbreviated class due to Student Union Day)
     url: week3.html
     notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
-
-  - week: --
-    date: 08 Sep
-    topic: Students Union Day, no class
-    cancelled: true
 
   - week: 4
     date: 15 Sep
