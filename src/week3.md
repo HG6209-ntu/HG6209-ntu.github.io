@@ -9,6 +9,33 @@ Review of Homework 2
 [Getting Started with Python (Strings)](static/OOPython-Strings.pdf): Slides
 from *Object-Oriented Programming in Python* (Goldwasser and Letscher)
 
+Installing NLTK (make sure your virtual environment is active):
+
+```{.bash .terminal}
+$ pip install nltk
+```
+
+Open the Python interpreter:
+
+```{.bash .terminal}
+$ python
+```
+
+From inside the Python interpreter:
+
+```{.python .terminal}
+>>> import nltk
+>>> nltk.download() # first time on this machine
+```
+
+This should open a new window with a list of corpora to download. They don't
+take up much space so feel free to download them all. Then you can close the
+window and exit the interpreter:
+
+```{.python .terminal}
+>>> exit()
+```
+
 ## Learning Objectives
 
 * Data types:
@@ -47,7 +74,7 @@ control-flow mechanisms:
 ### Functions
 
 This section on defining functions extends what we talked about in class
-in Week 2):
+in Week 2:
 
 * [4.6 -- Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 

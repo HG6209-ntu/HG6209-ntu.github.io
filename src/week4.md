@@ -6,18 +6,16 @@ title: 'Week 4'
 
 Review of Homework 3
 
-Jupyter Notebooks
-
 ## Learning Objectives
 
 * Constants:
-  [`True`]{.py}
-  [`False`]{.py}
-  [`None`]{.py}
+  [True]{.py}
+  [False]{.py}
+  [None]{.py}
 * Data types:
-  [`bool`]{.py}
-  [`tuple`]{.py}
-  [`dict`]{.py}
+  [bool]{.py}
+  [tuple]{.py}
+  [dict]{.py}
 * Concepts:
   [mutability]{.eng}
   [side-effects]{.eng}
