@@ -55,13 +55,15 @@ schedule:
     date: 22 Sep
     topic: Lexical Resources and WordNet
     url: week5.html
-    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
+    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html)); [lecture](static/week5-lecture.py); [practice](static/week5-practice.py)"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
     date: 29 Sep
     topic: Processing Raw Text
-    # url: week6.html
+    url: week6.html
+    notes: "[NLTK 3.1](http://www.nltk.org/book/ch03.html#accessing-text-from-the-web-and-from-disk),
+     [3.3](http://www.nltk.org/book/ch03.html#text-processing-with-unicode); [PT 7.1-7.3](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting)"
     # notes: "[notebook](static/week6-practice.ipynb)"
 
   - week: --
