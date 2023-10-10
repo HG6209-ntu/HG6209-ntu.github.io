@@ -1,8 +1,8 @@
 ---
-title: 'HG2051 AY2022-23 – Midterm Review'
+title: 'HG2051 – Midterm Review'
 ---
 
-# Mid-term Quiz Topics
+# Mid-term Review Topics
 
 *   [Python/Programming]{.py}
     *   REPL, Notebook, Module
@@ -12,7 +12,7 @@ title: 'HG2051 AY2022-23 – Midterm Review'
     *   Control Structures (`if`/`elif`/`else`, `for`, `while`, comprehensions)
     *   Built-in Functions (`print()`, `len()`, `range()`, `open()`, `enumerate()`, `any()`, `all()`)
     *   Functions (arguments, default arguments, `return`)
-    *   Raw data (`open()`, `str.encode()`, `bytes.decode()`, `urllib.request.urlopen()`)
+    *   Raw data (`open()`, `str.encode()`, `bytes.decode()`, `urllib.request.urlopen().read()`)
     *   Pandas (`read_csv()`, `read_excel`, `to_csv()`, `to_excel`)
 *   [NLP/CL]{.nlp}
     *   Basic tokenization
@@ -133,7 +133,7 @@ Once a function is defined, call it by its name:
 
 ### Data Types
 
-#### [`int`]{.py}
+#### [int]{.py}
 
 Integer types represent positive or negative whole numbers.
 
@@ -150,7 +150,7 @@ Integer types represent positive or negative whole numbers.
     6
 ```
 
-#### [`float`]{.py}
+#### [float]{.py}
 
 Floating-point numbers represent numbers with a fractional component.
 
@@ -169,7 +169,7 @@ Floating-point numbers represent numbers with a fractional component.
     4.0
 ```
 
-#### [`str`]{.py}
+#### [str]{.py}
 
 Strings are sequences of characters.
 
@@ -189,7 +189,7 @@ Strings are sequences of characters.
 *   [str.split()](https://docs.python.org/3/library/stdtypes.html#str.split) – return the list of tokens in the string
 *   [str.lower()](https://docs.python.org/3/library/stdtypes.html#str.lower) – return the string with all cased characters downcased
 
-#### [`list`]{.py}
+#### [list]{.py}
 
 Lists are mutable sequences of values.
 
@@ -212,7 +212,7 @@ Lists are mutable sequences of values.
     False
 ```
 
-#### [`tuple`]{.py}
+#### [tuple]{.py}
 
 Tuples are immutable sequences of values.
 
@@ -236,7 +236,7 @@ Tuples are immutable sequences of values.
     2
 ```
 
-#### [`set`]{.py}
+#### [set]{.py}
 
 Sets are containers of unique values.
 
@@ -260,7 +260,7 @@ Sets are containers of unique values.
     True
 ```
 
-#### [`dict`]{.py}
+#### [dict]{.py}
 
 Dictionaries are much like sets but they associate keys to values.
 

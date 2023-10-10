@@ -17,7 +17,7 @@ title: 'Week 7'
 
 For the review, please see the [midterm review](midterm-review.html).
 
-The midterm quiz consists of an in-class project that will apply all you have
+The midterm quiz consists of an in-class project that will apply what you have
 learned in the first half of this course. After the lecture you will be provided
 an individual link to your quiz repository, which contains instructions on
 completing the quiz. You will have 1.5 to 2 hours to complete the quiz by
