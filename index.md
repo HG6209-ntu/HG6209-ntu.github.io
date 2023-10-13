@@ -81,8 +81,9 @@ schedule:
 
   - week: 8
     date: 20 Oct
-    topic: Regular Expressions and Algorithmic Thinking
-    # url: week8.html
+    topic: Algorithmic Thinking and Regular Expressions
+    notes: "[NLTK 3.4](http://www.nltk.org/book/ch03.html#regular-expressions-for-detecting-word-patterns), [5](http://www.nltk.org/book/ch03.html#useful-applications-of-regular-expressions), [6](http://www.nltk.org/book/ch03.html#normalizing-text), [7](http://www.nltk.org/book/ch03.html#regular-expressions-for-tokenizing-text), [8](http://www.nltk.org/book/ch03.html#segmentation)"
+    url: week8.html
 
   - week: 9
     date: 27 Oct

@@ -107,7 +107,7 @@ Getting your code into the hands of others is _software distribution_. One way
 to do this is to put it up on a public code host, such as GitHub. For Python
 projects, you might add them to the [Python Package Index](https://pypi.org/)
 (PyPI), which allows them to be installed easily using `pip` (as we have done
-in this class, for instance here’s the PyPI entry for the NLTK: https://pypi.org/project/nltk/).
+in this class, for instance here’s the PyPI entry for the NLTK: [https://pypi.org/project/nltk/](https://pypi.org/project/nltk/)).
 Adding projects to PyPI requires some metadata, such as the author,
 compatible Python versions, dependencies, etc. Traditionally users would
 create a `setup.py` file (see [this tutorial](https://packaging.python.org/tutorials/packaging-projects/#creating-setup-py),
