@@ -100,8 +100,7 @@ schedule:
     date: 10 Nov
     topic: Classification
     # url: week11.html
-    notes: "Project 1 due"
-    # notes: "[Project 1](project1.html) due"
+    notes: "[Project 1](project1.html) due"
 
   - week: 12
     date: 17 Nov
