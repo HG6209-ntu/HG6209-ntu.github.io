@@ -63,7 +63,7 @@ schedule:
     topic: Processing Raw Text
     url: week6.html
     notes: "[NLTK 3.1](http://www.nltk.org/book/ch03.html#accessing-text-from-the-web-and-from-disk),
-     [3.3](http://www.nltk.org/book/ch03.html#text-processing-with-unicode); [PT 7.1-7.3](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting)
+     [3.3](http://www.nltk.org/book/ch03.html#text-processing-with-unicode); [PT 7.1-7.3](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting);
      [lecture](static/week6-lecture.py); [practice](static/week6-practice.py)"
     # notes: "[notebook](static/week6-practice.ipynb)"
 
@@ -82,7 +82,7 @@ schedule:
   - week: 8
     date: 20 Oct
     topic: Algorithmic Thinking and Regular Expressions
-    notes: "[NLTK 3.4](http://www.nltk.org/book/ch03.html#regular-expressions-for-detecting-word-patterns), [5](http://www.nltk.org/book/ch03.html#useful-applications-of-regular-expressions), [6](http://www.nltk.org/book/ch03.html#normalizing-text), [7](http://www.nltk.org/book/ch03.html#regular-expressions-for-tokenizing-text), [8](http://www.nltk.org/book/ch03.html#segmentation)"
+    notes: "[NLTK 3.4](http://www.nltk.org/book/ch03.html#regular-expressions-for-detecting-word-patterns), [5](http://www.nltk.org/book/ch03.html#useful-applications-of-regular-expressions), [6](http://www.nltk.org/book/ch03.html#normalizing-text), [7](http://www.nltk.org/book/ch03.html#regular-expressions-for-tokenizing-text), [8](http://www.nltk.org/book/ch03.html#segmentation); [lecture](static/week8-lecture.py); [practice](static/week8-practice.py)"
     url: week8.html
 
   - week: 9
