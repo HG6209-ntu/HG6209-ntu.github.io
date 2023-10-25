@@ -88,7 +88,9 @@ schedule:
   - week: 9
     date: 27 Oct
     topic: N-Grams and Collocations
-    # url: week9.html
+    notes: "[NLTK 4.5](http://www.nltk.org/book/ch04.html#higher-order-functions), [5](http://www.nltk.org/book/ch05.html)"
+    #; [lecture](static/week8-lecture.py); [practice](static/week8-practice.py)"
+    url: week9.html
 
   - week: 10
     date: 03 Nov
