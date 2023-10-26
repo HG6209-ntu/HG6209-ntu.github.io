@@ -119,8 +119,7 @@ schedule:
     date: 01 Dec
     topic: Extras
     # url: week14.html
-    notes: "Project 2 due"
-    # notes: "[Project 2](project2.html) due"
+    notes: "[Project 2](project2.html) due"
 ---
 
 ## Course Pages
