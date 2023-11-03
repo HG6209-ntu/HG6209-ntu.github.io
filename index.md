@@ -100,8 +100,8 @@ schedule:
   - week: 11
     date: 10 Nov
     topic: Classification
-    # url: week11.html
-    notes: "[Project 1](project1.html) due"
+    url: week11.html
+    notes: "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [Project 1](project1.html) due"
 
   - week: 12
     date: 17 Nov
