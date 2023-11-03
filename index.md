@@ -95,7 +95,7 @@ schedule:
     date: 03 Nov
     topic: Part-of-speech Tagging
     url: week10.html
-    notes: "[NLTK 5.4](http://www.nltk.org/book/ch05.html#automatic-tagging), [5](http://www.nltk.org/book/ch05.html#n-gram-tagging), [7](http://www.nltk.org/book/ch05.html#how-to-determine-the-category-of-a-word)"
+    notes: "[NLTK 5.4](http://www.nltk.org/book/ch05.html#automatic-tagging), [5](http://www.nltk.org/book/ch05.html#n-gram-tagging), [7](http://www.nltk.org/book/ch05.html#how-to-determine-the-category-of-a-word); [practice](static/week10-practice.py)"
 
   - week: 11
     date: 10 Nov
