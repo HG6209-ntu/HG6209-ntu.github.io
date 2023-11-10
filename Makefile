@@ -37,7 +37,7 @@ $(BRANCH)/css/%.css: css/%.scss
 $(BRANCH)/static/%: static/%
 	mkdir -p $(BRANCH)/static
 	# && cp "$<" "$@"
-	cp "$<" "$@"
+	cp -r "$<" "$@"
 
 $(BRANCH):
 	git clone "$(REPO)" "$(BRANCH)"
