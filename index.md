@@ -110,7 +110,7 @@ schedule:
 
   - week: 13
     date: 24 Nov
-    topic: Review and Final Quiz
+    topic: Review and Final Quiz [12:30pm, TR+49 (LHS-02-03, The Hive)]
     # url: final-review.html
     notes: "Coding challenge"
 
