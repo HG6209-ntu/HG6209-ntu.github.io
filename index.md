@@ -114,12 +114,13 @@ schedule:
     # url: final-review.html
     notes: "Coding challenge"
 
-  - week: 14
+  - week: --
     date: 01 Dec
     topic: Project 2 due, 11:59pm
     url: project2.html
     # url: week14.html
     notes: ""
+    cancelled: true
 ---
 
 ## Course Pages
