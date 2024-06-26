@@ -1,9 +1,9 @@
 ---
-title: Language and the Computer (AY2023)
+title: Language and the Computer (AY2024)
 instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
-date: "Fridays, 12:30-3:20pm (Sem1)"
+date: "Thursdays, 9:30-12:20pm (Sem1)"
 location: >
   [TR+29](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/e97bc9bf4c6740ca8f3d35cc) (LHS-B2-06, The Hive)
 
@@ -21,105 +21,101 @@ abstract: >
 
 schedule:
   - week: 1
-    date: 18 Aug
-    topic: What is Computational Linguistics? Why do it? Why use Python? CS basics
+    date: 15 Aug
+    topic: What is Computational Linguistics? Why do it? Why use Python?<br>Computer Science basics
     url: week1.html
     notes: "[Setup](environment-setup.html), [VS_Code](using-vscode.html)"
 
   - week: 2
-    date: 25 Aug
+    date: 22 Aug
     topic: Basic Types and Data Structures; Using Python to Count Things; Lists
-    url: week2.html
-    notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
-
-  - week: --
-    date: 01 Sep
-    topic: Polling Day, no class
-    cancelled: true
+  #  url: week2.html
+  #  notes: "[PyT 3.1](https://docs.python.org/3/tutorial/introduction.html#using-python-as-a-calculator); [NLTK 1](https://www.nltk.org/book/ch01.html)"
 
   - week: 3
-    date: 08 Sep
-    topic: Assignment, Expressions, and Control; Strings (abbreviated class due to Student Union Day)
-    url: week3.html
-    notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
+    date: 29 Aug
+    topic: Assignment, Expressions, and Control; Strings
+  #  url: week3.html
+  #  notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
-    date: 15 Sep
+    date: 5 Sep
     topic: Text Corpora and Conditional Frequencies
-    url: week4.html
-    notes: "[DIP 2.2](https://diveintopython3.problemsolving.io/native-datatypes.html#booleans),
-    [2.8](https://diveintopython3.problemsolving.io/native-datatypes.html#none); [PT 5.3](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences),
-    [5.5](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), [4.7.1](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values)-[2](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments); [NLTK 2.1](http://www.nltk.org/book/ch02.html#accessing-text-corpora)-[2](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions); [lecture](static/week4-lecture.py); [practice](static/week4-practice.py)"
+  #  url: week4.html
+  #  notes: "[DIP 2.2](https://diveintopython3.problemsolving.io/native-datatypes.html#booleans),  [2.8](https://diveintopython3.problemsolving.io/native-datatypes.html#none); [PT 5.3](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences), [5.5](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), [4.7.1](https://docs.python.org/3/tutorial/controlflow.html#default-argument-values)-[2](https://docs.python.org/3/tutorial/controlflow.html#keyword-arguments); [NLTK 2.1](http://www.nltk.org/book/ch02.html#accessing-text-corpora)-[2](http://www.nltk.org/book/ch02.html#conditional-frequency-distributions); [lecture](static/week4-lecture.py); [practice](static/week4-practice.py)"
 
   - week: 5
-    date: 22 Sep
+    date: 12 Sep
     topic: Lexical Resources and WordNet
-    url: week5.html
-    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html)); [lecture](static/week5-lecture.py); [practice](static/week5-practice.py)"
+  #  url: week5.html
+  #  notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html)); [lecture](static/week5-lecture.py); [practice](static/week5-practice.py)"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
-    date: 29 Sep
+    date: 19 Sep
     topic: Processing Raw Text
-    url: week6.html
-    notes: "[NLTK 3.1](http://www.nltk.org/book/ch03.html#accessing-text-from-the-web-and-from-disk),
-     [3.3](http://www.nltk.org/book/ch03.html#text-processing-with-unicode); [PT 7.1-7.3](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting);
-     [lecture](static/week6-lecture.py); [practice](static/week6-practice.py)"
+  #  url: week6.html
+  #  notes: "[NLTK 3.1](http://www.nltk.org/book/ch03.html#accessing-text-from-the-web-and-from-disk), [3.3](http://www.nltk.org/book/ch03.html#text-processing-with-unicode); [PT 7.1-7.3](https://docs.python.org/3/tutorial/inputoutput.html#fancier-output-formatting); [lecture](static/week6-lecture.py); [practice](static/week6-practice.py)"
     # notes: "[notebook](static/week6-practice.ipynb)"
 
+  - week: 7
+    date: 26 Sep
+    topic: Mid-review; Working with Software Projects
+  # url: week7.html
+  # notes: "[PT 6](https://docs.python.org/3/tutorial/modules.html), [6.4](https://docs.python.org/3/tutorial/modules.html#packages); Coding challenge"
+    #[Midterm Quiz](static/quiz1_modelsolution.py)"
+
   - week: --
-    date: 06 Oct
+    date: 03 Oct
     topic: Recess
     cancelled: true
 
-  - week: 7
-    date: 13 Oct
-    topic: Mid-review; Working with Software Projects
-    notes: "[PT 6](https://docs.python.org/3/tutorial/modules.html), [6.4](https://docs.python.org/3/tutorial/modules.html#packages); Coding challenge"
-    #[Midterm Quiz](static/quiz1_modelsolution.py)"
-    url: week7.html
-
   - week: 8
-    date: 20 Oct
+    date: 10 Oct
     topic: Algorithmic Thinking and Regular Expressions
-    notes: "[NLTK 3.4](http://www.nltk.org/book/ch03.html#regular-expressions-for-detecting-word-patterns), [5](http://www.nltk.org/book/ch03.html#useful-applications-of-regular-expressions), [6](http://www.nltk.org/book/ch03.html#normalizing-text), [7](http://www.nltk.org/book/ch03.html#regular-expressions-for-tokenizing-text), [8](http://www.nltk.org/book/ch03.html#segmentation); [lecture](static/week8-lecture.py); [practice](static/week8-practice.py)"
-    url: week8.html
+  # url: week8.html
+  # notes: "[NLTK 3.4](http://www.nltk.org/book/ch03.html#regular-expressions-for-detecting-word-patterns), [5](http://www.nltk.org/book/ch03.html#useful-applications-of-regular-expressions), [6](http://www.nltk.org/book/ch03.html#normalizing-text), [7](http://www.nltk.org/book/ch03.html#regular-expressions-for-tokenizing-text), [8](http://www.nltk.org/book/ch03.html#segmentation); [lecture](static/week8-lecture.py); [practice](static/week8-practice.py)"
 
   - week: 9
-    date: 27 Oct
+    date: 17 Oct
     topic: N-Grams and Collocations
-    notes: "[NLTK 4.5](http://www.nltk.org/book/ch04.html#higher-order-functions), [5](http://www.nltk.org/book/ch05.html); [lecture](static/week9-lecture.py); [practice](static/week9-practice.py)"
-    url: week9.html
+  # url: week9.html
+  # notes: "[NLTK 4.5](http://www.nltk.org/book/ch04.html#higher-order-functions), [5](http://www.nltk.org/book/ch05.html); [lecture](static/week9-lecture.py); [practice](static/week9-practice.py)"
 
   - week: 10
-    date: 03 Nov
+    date: 24 Oct
     topic: Part-of-speech Tagging
-    url: week10.html
-    notes: "[NLTK 5.4](http://www.nltk.org/book/ch05.html#automatic-tagging), [5](http://www.nltk.org/book/ch05.html#n-gram-tagging), [7](http://www.nltk.org/book/ch05.html#how-to-determine-the-category-of-a-word); [practice](static/week10-practice.py)"
+  # url: week10.html
+  # notes: "[NLTK 5.4](http://www.nltk.org/book/ch05.html#automatic-tagging), [5](http://www.nltk.org/book/ch05.html#n-gram-tagging), [7](http://www.nltk.org/book/ch05.html#how-to-determine-the-category-of-a-word); [practice](static/week10-practice.py)"
+
+  - week: --
+    date: 31 Oct
+    topic: Deepavali
+    cancelled: true
 
   - week: 11
-    date: 10 Nov
+    date: 07 Nov
     topic: Classification
-    url: week11.html
-    notes: "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); [Project 1](project1.html) due"
+  # url: week11.html
+  # notes: "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); [Project 1](project1.html) due"
 
   - week: 12
-    date: 17 Nov
+    date: 14 Nov
     topic: Ethics, Language Models, and Software Libraries
-    url: week12.html
+  # url: week12.html
 
   - week: 13
-    date: 24 Nov
-    topic: Review and Final Quiz:<br>12:30pm, TR+49 (LHS-02-03, The Hive)
+    date: 21 Nov
+    topic: Review and Final Quiz
     # url: final-review.html
     notes: "Coding challenge"
 
   - week: --
-    date: 01 Dec
+    date: 28 Nov
     topic: Project 2 due, 11:59pm
-    url: project2.html
-    # url: week14.html
-    notes: ""
+  # url: project2.html
+  # url: week14.html
+  # notes: ""
     cancelled: true
 ---
 
@@ -174,6 +170,7 @@ previous years. Below are some of the archives of the previous courses:
 
 - Hiram Ring:
   [2022](https://hg2051-ntu.github.io/AY2022/)
+  [2023](https://hg2051-ntu.github.io/AY2023/)
 - Michael Wayne Goodman:
   [2019](https://compling.hss.ntu.edu.sg/courses/hg2051/),
   [2020](https://ntu-hg2051.github.io/)
