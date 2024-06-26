@@ -63,9 +63,11 @@ deploy:
 	git checkout master
 	rm -rf "$(BRANCH)"
 	rm -rf "AY2022"
+	rm -rf "AY2023"
 
 clean:
 	rm -rf "$(BRANCH)"
 	rm -rf "AY2022"
+	rm -rf "AY2023"
 
 .PHONY: html clean
