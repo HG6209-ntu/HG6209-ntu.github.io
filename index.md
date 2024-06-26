@@ -169,7 +169,7 @@ permission) from Michael Wayne Goodman and Francis Bond, who taught
 previous years. Below are some of the archives of the previous courses:
 
 - Hiram Ring:
-  [2022](https://hg2051-ntu.github.io/AY2022/)
+  [2022](https://hg2051-ntu.github.io/AY2022/),
   [2023](https://hg2051-ntu.github.io/AY2023/)
 - Michael Wayne Goodman:
   [2019](https://compling.hss.ntu.edu.sg/courses/hg2051/),
