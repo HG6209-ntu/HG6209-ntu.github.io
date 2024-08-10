@@ -62,7 +62,7 @@ schedule:
     date: 26 Sep
     topic: Mid-review; Working with Software Projects
   # url: week7.html
-  # notes: "[PT 6](https://docs.python.org/3/tutorial/modules.html), [6.4](https://docs.python.org/3/tutorial/modules.html#packages); Coding challenge"
+    notes: "Coding challenge" # [PT 6](https://docs.python.org/3/tutorial/modules.html), [6.4](https://docs.python.org/3/tutorial/modules.html#packages);
     #[Midterm Quiz](static/quiz1_modelsolution.py)"
 
   - week: --
@@ -97,7 +97,7 @@ schedule:
     date: 07 Nov
     topic: Classification
   # url: week11.html
-  # notes: "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); [Project 1](project1.html) due"
+    notes: "Project 1 due, 11:59pm" # [Project 1](project1.html) "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); "
 
   - week: 12
     date: 14 Nov
