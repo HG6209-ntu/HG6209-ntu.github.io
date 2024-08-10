@@ -11,7 +11,7 @@ abstract: >
   Traditionally linguistic analysis was done largely by hand, but
   computer-based methods and tools are becoming increasingly widely
   used in contemporary research. This course provides an introduction
-  to skills and resources that can assist the linguist in performing
+  to skills and resources to assist the linguist in performing
   fast, flexible, and accurate quantitative analyses. Students will
   learn a programming language (Python) along with techniques for
   processing human language data. No previous programming experience
