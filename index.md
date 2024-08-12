@@ -124,8 +124,6 @@ schedule:
 - [Environment Setup](environment-setup.html) -- instructions for setting up your computer for HG2051
 - [Using Visual Studio Code](using-vscode.html) -- how to get, complete, and submit assignments
 - [Glossary](glossary.html) -- definitions of some technical terms
-- [Midterm Review](midterm-review.html)
-- [Final Review](final-review.html)
 
 ## Grading Criteria
 
