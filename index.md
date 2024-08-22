@@ -35,8 +35,8 @@ schedule:
   - week: 3
     date: 29 Aug
     topic: Assignment, Expressions, and Control; Strings
-  #  url: week3.html
-  #  notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
+    url: week3.html
+    notes: "[PyT 3.2](https://docs.python.org/3/tutorial/introduction.html#first-steps-towards-programming), [4](https://docs.python.org/3/tutorial/controlflow.html); [NLTK 4.1](http://www.nltk.org/book/ch02.html#wordlist-corpora)"
 
   - week: 4
     date: 5 Sep
