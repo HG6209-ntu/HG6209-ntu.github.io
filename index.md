@@ -48,8 +48,9 @@ schedule:
   - week: 5
     date: 12 Sep
     topic: Lexical Resources and WordNet
-  #  url: week5.html
-  #  notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html)); [lecture](static/week5-lecture.py); [practice](static/week5-practice.py)"
+    url: week5.html
+    notes: "[NLTK 2.4](http://www.nltk.org/book/ch02.html#lexical-resources), [2.5](http://www.nltk.org/book/ch02.html#wordnet), ([How To](http://www.nltk.org/howto/wordnet.html))"
+    #"; [lecture](static/week5-lecture.py); [practice](static/week5-practice.py)"
     # notes: "[notebook](static/week5-practice.ipynb)"
 
   - week: 6
