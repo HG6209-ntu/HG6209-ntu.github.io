@@ -12,12 +12,12 @@
 
 # Rewrite the for-loop into a list comprehension:
 
-# squares = [i * i for i in x]
+# squares = [ ]
 # print(squares)
 
 # Now do it again, but with a condition. For instance, only numbers greater than 1:
 
-# squares = [i * i for i in x if i > 1]
+# squares = [ ]
 # print(squares)
 
 # When iterating over strings, each element of the string is a character, not a word:
@@ -41,17 +41,17 @@
 # {c: i for i, c in enumerate('ab', 1)}  # in a dict comprehension
 
 # #### Challenge
-# Create a function that takes a string and maps the downcased first letter of 
+# Create a function that takes a string and maps the downcased first letter of
 # each word to the list of words starting with that letter (upper or lowercase).
 
-# If I don't have a good idea where to begin, I'd first start out writing what 
+# If I don't have a good idea where to begin, I'd first start out writing what
 # I do know. I want a function that takes a string and returns a dictionary:
 
 # def lettermap(string):
 #     d = {}
 #     return d
 
-# Now I'd start filling in the details. I know I need to go over each word, 
+# Now I'd start filling in the details. I know I need to go over each word,
 # get the first character of each word, and map it to a list of words, so maybe:
 
 # def lettermap(string):
@@ -74,7 +74,7 @@
 
 # print(lettermap('dogs CHASE cats'))
 
-# Ok, now we've lost 'CHASE'. We need to create one list and append to it, 
+# Ok, now we've lost 'CHASE'. We need to create one list and append to it,
 # rather than creating a new list for each word.
 
 # def lettermap(string):
