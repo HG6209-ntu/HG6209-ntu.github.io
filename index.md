@@ -98,7 +98,7 @@ schedule:
     date: 07 Nov
     topic: Classification
   # url: week11.html
-    notes: "Project 1 due, 11:59pm" # [Project 1](project1.html) "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); "
+    notes: "[Project 1](project1.html) due, 11:59pm" #  "[NLTK 6.2](http://www.nltk.org/book/ch06.html#further-examples-of-supervised-classification), [5](http://www.nltk.org/book/ch06.html#naive-bayes-classifiers), [6](http://www.nltk.org/book/ch06.html#maximum-entropy-classifiers); [practice](static/week11-practice.py), [enamdict](static/code/enamdict); "
 
   - week: 12
     date: 14 Nov
@@ -114,7 +114,7 @@ schedule:
   - week: --
     date: 28 Nov
     topic: Project 2 due, 11:59pm
-  # url: project2.html
+    url: project2.html
   # url: week14.html
   # notes: ""
     cancelled: true
