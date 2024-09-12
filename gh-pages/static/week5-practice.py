@@ -16,9 +16,9 @@ for file in files:
     # Get the list of words in the text and normalize early.
     # The isalpha() filter removes tokens like ",", but also valid words with punctuation.
     # How you normalize and filter is up to you.
-    textwords = [w.lower() for w in gutenberg.words(file) if w.isalpha()]
+    textwords = []
     # Words not in the set of "known" words are often called OOV (out-of-vocabulary)
-    oov = [w for w in textwords if w not in WORDS]
+    oov = []
     print(file)
     print('  sample:', oov[:10])
     print('  percent of tokens that are unknown:', 100 * len(oov) / len(textwords))
@@ -26,10 +26,10 @@ for file in files:
 
 # - What percentage of the wordlist are present in the texts?
 for file in files:
-    # Get the list of words, as before.
-    textwords = [w.lower() for w in gutenberg.words(file) if w.isalpha()]
+    # Get the list of words, as before, using your normalization function.
+    textwords = []
     # IV = in-vocabulary, by analogy to OOV
-    iv = [w for w in textwords if w in WORDS]
+    iv = []
     print(file)
     print('  percent of wordlist present in text:', 100 * len(set(iv)) / len(WORDS))
 
@@ -148,7 +148,7 @@ print(sense_tag('I bought a mouse for my laptop'))
 #   - *The doctor is in the office, today.*
 #   - *The doctor's shoes are very in, this season.*
 
-# **Q:** With your sysent tagger, do all sentences get the same synset for *in*?
+# **Q:** With your synset tagger, do all sentences get the same synset for *in*?
 # Which sysnets should they get?
 print(sense_tag('The doctor is in , today .'))  # spaces around punctuation because my tokenization is just split()
 print(sense_tag('The doctor is in the office, today .'))
@@ -156,20 +156,6 @@ print(sense_tag("The doctor's shoes are very in , this season ."))
 for synset in wn.synsets('in'):
     print(synset, synset.definition())
 
-# They all get the same but it's not correct for any. They should get:
-# - in.s.01
-# - None
-# - in.s.03
-
 # **Q:** Can you think of ways we might improve the tagger to get better performance?
 
-# **A:** If we had the part-of-speech information for each word, this could help
-#  wordnet choose the correct synset more often. We could also try to build
-#  statistical models, for instance by looking at each word's left and right
-#  context to help decide, but this requires annotated data to train the model.
-
 # **Q:** How would we measure if the performance improves or degrades?
-
-# **A:** We need some **gold standard** annotations to compare against. Without those,
-#  we would have to manually determine, with our own intuition, whether an annotation
-#  is correct or not, and this has issues with consistency and scale.
