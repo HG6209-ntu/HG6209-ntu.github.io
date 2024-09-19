@@ -1,5 +1,5 @@
 ---
-title: Language and the Computer (AY2024)
+title: Language and the Computer (AY2024-25)
 instructor:
   - name: Hiram Ring
     email: hiram.ring@ntu.edu.sg
@@ -7,7 +7,7 @@ date: "Thursdays, 9:30am-12:20pm (Sem1)"
 location: >
   [TR+29](https://maps.ntu.edu.sg/#/ntu/d386ffa80e4e46f286d17f08/poi/details/e97bc9bf4c6740ca8f3d35cc) (LHS-B2-06, The Hive)
 
-abstract: > 
+abstract: >
   Traditionally linguistic analysis was done largely by hand, but
   computer-based methods and tools are becoming increasingly widely
   used in contemporary research. This course provides an introduction
