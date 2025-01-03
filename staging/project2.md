@@ -1,10 +1,10 @@
 ---
-title: 'HG2051 (AY24/25) Project 2: Group assignment'
+title: 'HG6209 (AY24/25) Project 2: Group assignment'
 ---
 
 ## Introduction
 
-This project constitutes 30% of your final grade for HG2051. Please work on the
+This project constitutes 30% of your final grade for HG6209. Please work on the
 final program in groups of 2-3 and report together.
 
 - The goal of this assignment is to demonstrate your programming and

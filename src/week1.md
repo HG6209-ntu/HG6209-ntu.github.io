@@ -4,7 +4,7 @@ title: 'Week 1'
 
 ## Introduction
 
-* Introduction to HG2051 ([slides](static/Wk01_slides.pdf))
+* Introduction to HG6209 ([slides](static/Wk01_slides.pdf))
 * Python programming for beginners: [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
 * Basic computer science concepts: [File structure and command line operations](https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet)
 

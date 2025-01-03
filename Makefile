@@ -8,7 +8,7 @@ PANDOC = --standalone \
 		 --from markdown \
 		 --to html5 \
          --css "css/main.css" \
-		 --title-prefix "HG2051" \
+		 --title-prefix "HG6209" \
 		 --highlight-style "templates/monokai.theme"
 
 # Find sources and determine targets
@@ -62,12 +62,8 @@ deploy:
 	git push -f origin $(BRANCH) && \
 	git checkout master
 	rm -rf "$(BRANCH)"
-	rm -rf "AY2022"
-	rm -rf "AY2023"
 
 clean:
 	rm -rf "$(BRANCH)"
-	rm -rf "AY2022"
-	rm -rf "AY2023"
 
 .PHONY: html clean

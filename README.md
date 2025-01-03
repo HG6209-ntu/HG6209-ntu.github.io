@@ -1,2 +1,2 @@
-# ntu-hg2051.github.io
-HG2051 Course Website
+# hg6209-ntu.github.io
+HG6209 Course Website

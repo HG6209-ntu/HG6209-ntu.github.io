@@ -1,10 +1,10 @@
 ---
-title: 'HG2051 (AY24/25) Project 1: Individual assignment'
+title: 'HG6209 (AY24/25) Project 1: Individual assignment'
 ---
 
 ## Introduction
 
-This project constitutes 30% of your final grade for HG2051. Please work on the
+This project constitutes 30% of your final grade for HG6209. Please work on the
 final program and report individually. Your code will be assessed based on its
 functionality and simplicity.
 
