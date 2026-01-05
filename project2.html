@@ -4,230 +4,206 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>HG6209 – HG6209 (AY24 Sem 2) Project 2: Group assignment</title>
+  <title>HG6209 – HG6209 Project 2: Group assignment</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  { color: #f8f8f2;  }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #a6e22e; } /* Attribute */
-code span.bn { color: #ae81ff; } /* BaseN */
-code span.bu { color: #66d9ef; } /* BuiltIn */
-code span.cf { color: #f92672; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #e6db74; } /* Char */
-code span.cn { color: #ae81ff; } /* Constant */
-code span.co { color: #88846f; font-style: italic; } /* Comment */
-code span.cv { color: #88846f; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #e6db74; font-style: italic; } /* Documentation */
-code span.dt { color: #66d9ef; } /* DataType */
-code span.dv { color: #ae81ff; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #b08000; } /* Float */
-code span.fu { color: #a6e22e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #e6db74; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #f92672; font-weight: bold; } /* Keyword */
-code span.op { color: #f92672; } /* Operator */
-code span.ot { } /* Other */
-code span.pp { color: #66d9ef; } /* Preprocessor */
-code span.sc { color: #ae81ff; } /* SpecialChar */
-code span.ss { color: #ffe792; } /* SpecialString */
-code span.st { color: #ffe792; } /* String */
-code span.va { color: #f8f8f2; } /* Variable */
-code span.vs { color: #e6db74; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-  </style>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css?v=1" />
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">HG6209 (AY24 Sem 2) Project 2: Group assignment</h1>
+<h1 class="title">HG6209 Project 2: Group assignment</h1>
 </header>
 <nav id="TOC">
 <ul>
 <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
-<li><a href="#project-2-text-classification"
-id="toc-project-2-text-classification">Project 2: Text
-classification</a></li>
+<li><a href="#preliminaries"
+id="toc-preliminaries">Preliminaries</a></li>
+<li><a
+href="#project-2a-part-of-speech-tagging-for-low-resource-languages"
+id="toc-project-2a-part-of-speech-tagging-for-low-resource-languages">Project
+2a: Part of Speech tagging for low-resource languages</a>
+<ul>
+<li><a href="#choose-the-language" id="toc-choose-the-language">Choose
+the language</a></li>
+</ul></li>
+<li><a href="#project-2b-part-of-speech-tagging-using-a-udt-dataset"
+id="toc-project-2b-part-of-speech-tagging-using-a-udt-dataset">Project
+2b: Part of Speech tagging using a UDT dataset</a>
+<ul>
+<li><a href="#choose-the-language-1"
+id="toc-choose-the-language-1">Choose the language</a></li>
+</ul></li>
+<li><a href="#guide-for-both-project-options"
+id="toc-guide-for-both-project-options">Guide for both project
+options</a>
+<ul>
+<li><a href="#determine-your-approach"
+id="toc-determine-your-approach">Determine your approach</a></li>
+<li><a href="#write-code-to-train-and-evaluate-your-tagger"
+id="toc-write-code-to-train-and-evaluate-your-tagger">Write code to
+train and evaluate your tagger</a></li>
+<li><a href="#predict-tags-for-the-taggedpbc-corpus"
+id="toc-predict-tags-for-the-taggedpbc-corpus">Predict tags for the
+<em>taggedPBC</em> corpus</a></li>
+<li><a href="#output" id="toc-output">Output</a></li>
+</ul></li>
 </ul>
 </nav>
 <main>
 <h2 id="introduction">Introduction</h2>
-<p>This project constitutes 30% of your final grade for HG2051. Please
+<p>This project constitutes 30% of your final grade for HG6209. Please
 work on the final program in groups of 2-3 and report together.</p>
 <ul>
 <li><p>The goal of this assignment is to demonstrate your programming
 and problem-solving abilities through teamwork. If your team has an idea
-for another project that you would like to do instead, talk to me for
-approval.</p></li>
-<li><p>This project involves text classification using machine learning
-tools. As with the individual project, your team will be required to
-submit data, output, and annotated code along with a short writeup that
-describes your goals, process, and results. Your code will be assessed
-based on its functionality and simplicity.</p></li>
+for another project that you would like to do instead, talk to the
+instructor for approval.</p></li>
+<li><p>Project 2 involves developing a POS-tagger for a (low-resource)
+language. As with the <a href="project1">individual project</a>, your
+team will be required to submit data, output, and annotated code along
+with a short writeup that describes your goals, process, and results.
+Your code will be assessed based on its functionality and simplicity.
+Your writeup will be assessed on its organization, clarity,
+comprehensiveness, and quality of the discussion.</p></li>
 </ul>
-<h2 id="project-2-text-classification">Project 2: Text
-classification</h2>
-<p>Text classification is a general term for automatically identifying
-properties of a text based on its linguistic content. For this project
-you will develop a program that classifies short texts based on their
-polarity/sentiment (positive, negative, neutral), improving on existing
-tools.</p>
-<p>NLTK has an in-built sentiment analyzer that determines polarity of a
-short text (like a sentence). You can use it like this:</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="im">from</span> nltk.sentiment <span class="im">import</span> SentimentIntensityAnalyzer</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> sia <span class="op">=</span> SentimentIntensityAnalyzer()</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> sia.polarity_scores(<span class="st">&quot;Wow, this tool is incredibly powerful!&quot;</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>{<span class="st">&#39;neg&#39;</span>: <span class="fl">0.0</span>, <span class="st">&#39;neu&#39;</span>: <span class="fl">0.358</span>, <span class="st">&#39;pos&#39;</span>: <span class="fl">0.642</span>, <span class="st">&#39;compound&#39;</span>: <span class="fl">0.8012</span>}</span></code></pre></div>
-<p>The <code>polarity_scores</code> function returns 3 values which
-correspond to the percentage likelihood that the text is negative,
-neutral, or positive. The <code>compound</code> score is a value between
-<code>1</code> (positive) and <code>-1</code> (negative). You can use
-these scores to track/evaluate polarity of short texts. However, the
-‘vanilla’ classifier can be made better with a bit of effort.</p>
+<p>There are two possible options for completing Project 2. Both involve
+developing a POS tagger. The first (Project 2a) uses annotated data from
+Project 1 to develop a POS tagger for a low-resource language. The
+second (Project 2b) uses annotated data from the Universal Dependencies
+Treebanks project to train a POS tagger. If you were successful in
+annotating one of the languages your team members chose for Project 1,
+this is the preferred choice. If not, you can focus on using the
+hand-annotated data from a UDT corpus for training/testing. Make sure to
+read through both projects below to understand the scope of the
+tasks.</p>
+<h2 id="preliminaries">Preliminaries</h2>
+<p>As noted in Project 1, part of speech (POS) tagging is a way to
+automatically identify the word class of a particular lexical item in a
+string of text. A decent part of speech tagger can help to facilitate
+other downstream tasks such as machine translation. In the individual
+project you focused on the process of developing materials for POS
+tagging for a low-resource language. In this project you will work with
+other students to train a POS-tagger using a combination of the data you
+annotated and additional data that you will develop or source.</p>
+<p>Typically, identifying or classifying word types in sentences is done
+on the basis of FDA (Function, Distribution, Associated grammatical
+categories), as per your Morphology and Syntax course. There are two
+basic approaches to automated POS tagging:</p>
 <ol type="1">
-<li>Make sure you have downloaded the NLTK <code>movie_reviews</code>
-corpus (<code>nltk.corpus.movie_reviews</code>), as this will be the set
-of data that you will use for training and testing the classifier. Each
-of the reviews in this corpus has already been classified as positive or
-negative, which allows us to see how well the NLTK sentiment analyzer
-works, i.e. with the following code:</li>
+<li>rule-based</li>
+<li>statistical inference.</li>
 </ol>
-<div class="sourceCode" id="cb2"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nltk</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> nltk.sentiment <span class="im">import</span> SentimentIntensityAnalyzer</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statistics <span class="im">import</span> mean</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> random <span class="im">import</span> shuffle</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>sia <span class="op">=</span> SentimentIntensityAnalyzer()</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_positive(review_id: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">bool</span>:</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;True if the average of all sentence compound scores is positive.&quot;&quot;&quot;</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    text <span class="op">=</span> nltk.corpus.movie_reviews.raw(review_id)</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> [</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>        sia.polarity_scores(sentence)[<span class="st">&quot;compound&quot;</span>]</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> sentence <span class="kw">in</span> nltk.sent_tokenize(text)</span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> mean(scores) <span class="op">&gt;</span> <span class="dv">0</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>positive_review_ids <span class="op">=</span> nltk.corpus.movie_reviews.fileids(categories<span class="op">=</span>[<span class="st">&quot;pos&quot;</span>])</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>negative_review_ids <span class="op">=</span> nltk.corpus.movie_reviews.fileids(categories<span class="op">=</span>[<span class="st">&quot;neg&quot;</span>])</span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>all_review_ids <span class="op">=</span> positive_review_ids <span class="op">+</span> negative_review_ids</span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>shuffle(all_review_ids)</span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>correct <span class="op">=</span> <span class="dv">0</span></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> review_id <span class="kw">in</span> all_review_ids:</span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> is_positive(review_id):</span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> review_id <span class="kw">in</span> positive_review_ids:</span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>      correct <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> review_id <span class="kw">in</span> negative_review_ids:</span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>      correct <span class="op">+=</span> <span class="dv">1</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">F&quot;</span><span class="sc">{</span>correct <span class="op">/</span> <span class="bu">len</span>(all_review_ids)<span class="sc">:.2%}</span><span class="ss"> correct&quot;</span>)</span></code></pre></div>
-<div class="sourceCode" id="cb3"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fl">64.00</span><span class="op">%</span> correct</span></code></pre></div>
-<ol start="2" type="1">
-<li><p>Create a list of ‘positive’ words and ‘negative’ words based on
-ratings of short texts. You can either use the same NLTK corpus of movie
-reviews or another that you can find online. Once you have sorted and
-filtered the words, perhaps via frequency distributions, write a
-function that uses these words in conjunction with the NLTK sentiment
-analyzer to classify the movie reviews and improve on the score. This
-process is known as feature selection/engineering - try to think of and
-implement other “features” that you can identify in the text which might
-improve your classification. Some ideas can be found <a
-href="https://realpython.com/python-nltk-sentiment-analysis/">here</a>.</p></li>
-<li><p>Once you have determined the features that you want to extract
-from the text, write a function that automatically extracts these
-features from the text as a dictionary. Then use the function to create
-a list of tuples, where the first item of the tuple is the dictionary of
-features and the second item is the category (“pos” or “neg”) of the
-review, i.e.:</p></li>
-</ol>
-<div class="sourceCode" id="cb4"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>            (extract_features(nltk.corpus.movie_reviews.raw(review)), <span class="st">&quot;pos&quot;</span>)</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> review <span class="kw">in</span> nltk.corpus.movie_reviews.fileids(categories<span class="op">=</span>[<span class="st">&quot;pos&quot;</span>])</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>            ]</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>features.extend([</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            (extract_features(nltk.corpus.movie_reviews.raw(review)), <span class="st">&quot;neg&quot;</span>)</span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> review <span class="kw">in</span> nltk.corpus.movie_reviews.fileids(categories<span class="op">=</span>[<span class="st">&quot;neg&quot;</span>])</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>            ])</span></code></pre></div>
+<p>The first approach can be useful for complex cases, particularly when
+the language has been analyzed, while the second often involves machine
+learning and can be helpful when little is known about the language.
+Some taggers benefit from a hybrid approach, and this can be an
+iterative process.</p>
+<h2
+id="project-2a-part-of-speech-tagging-for-low-resource-languages">Project
+2a: Part of Speech tagging for low-resource languages</h2>
+<p>For Project 2a you will work with the data that you or a group member
+annotated previously. If you planned ahead, you would have all worked on
+languages within the same family - this familiarity should allow you to
+be successful in the group task.</p>
+<h3 id="choose-the-language">Choose the language</h3>
+<ul>
+<li>In your group, choose one of the low-resource languages that a
+member of your group worked on for Project 1. Using the dataset, develop
+a POS-tagger for the chosen language. Then use the trained tagger to
+re-tag the complete corpus in the <em>taggedPBC</em>.</li>
+</ul>
+<h2 id="project-2b-part-of-speech-tagging-using-a-udt-dataset">Project
+2b: Part of Speech tagging using a UDT dataset</h2>
+<p>For Project 2b you will work with data from the Universal
+Dependencies Treebanks project for a language that is also found in the
+<em>taggedPBC</em>. This will allow you to use hand-tagged data to train
+a tagger for a relatively low-resource language.</p>
+<h3 id="choose-the-language-1">Choose the language</h3>
+<ul>
+<li>A list of languages available is given <a
+href="project_lgs_UD_HG6209">here</a> with links to the respective
+treebanks. Using this dataset, develop a POS-tagger. Then use this
+trained tagger to re-tag the respective <em>taggedPBC</em> corpus.</li>
+</ul>
+<h2 id="guide-for-both-project-options">Guide for both project
+options</h2>
+<p>For both projects, the goal is to develop a POS tagger and use it to
+tag the remaining data in the respective <em>taggedPBC</em> corpus for
+the language you chose. You will evaluate the result on several grounds.
+The following guide will walk you through the process.</p>
+<h3 id="determine-your-approach">Determine your approach</h3>
+<ul>
+<li><p>Decide how you want to approach the task of developing an
+automated POS tagger: will you train a tagger from data, or write rules,
+or try some combination of the two?</p></li>
+<li><p>You also need to consider evaluation/validation of your tagger,
+which will be based either on the hand-tagged sentences/verses that were
+annotated in Project 1 or on a portion of the hand-tagged sentences of
+the UDT corpus for the language that you chose. The set of annotated
+verses will be data that your tool has not trained on, and will serve as
+the “gold standard” evaluation set. In order to train/develop your
+tagger, you may need to find or develop additional tagged data, either
+through other sources or via hand-annotation. For best results, your
+training/development data should be many more sentences (at least twice
+as many) as your evaluation set.</p></li>
+</ul>
+<h3 id="write-code-to-train-and-evaluate-your-tagger">Write code to
+train and evaluate your tagger</h3>
+<ul>
+<li><p>Together with your group, develop code that parses the
+training/development data and re-tags either the annotated dataset from
+Project 1 or a set of 20 sentences from the UDT for POS, evaluating its
+accuracy by comparing the newly generated tags with the “gold standard”
+tags.</p></li>
+<li><p>Starter code in your repository shows how you can use tools in
+the NLTK library for training POS-taggers. You can also use other
+tools/libraries to train a tagging model, and/or write parsing rules
+based on your understanding of the language.</p></li>
+<li><p>The starter code also illustrates how you can evaluate on the
+“gold standard” data.</p></li>
+</ul>
 <blockquote>
-<p>Finally, split the dataset for training and validation to see
-how/whether your features improve classification using, i.e. the Naive
-Bayes classification algorithm in NLTK. It is important that whatever
-classifier you use, the training data is kept separate from the
-testing/validation set, otherwise you are simply letting the model
-“memorize” inputs (overfitting) and it will not generalize well to other
-datasets. It is common in machine learning to use an 80/20 or 90/10
-split with larger datasets, but for illustration and due to the small
-size of the <code>movie_reviews</code> corpus we will train on a quarter
-of the dataset and predict on the remainder of the dataset.</p>
+<p><strong>BONUS</strong>: <em>in addition to POS tagging, a central
+concern when parsing language is understanding dependencies between word
+classes. Develop a parser for the language that identifies dependencies
+between words, i.e. phrasal heads and their subordinate elements (for
+example, nouns are heads of noun phrases, but dependents of verb
+phrases, how would you link a particular noun with its head, and in what
+role relation [subject, object, etc]?)</em></p>
 </blockquote>
-<div class="sourceCode" id="cb5"><pre
-class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> <span class="co"># Use 1/4 of the set for training</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> train_count <span class="op">=</span> <span class="bu">len</span>(features) <span class="op">//</span> <span class="dv">4</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> shuffle(features)</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> classifier <span class="op">=</span> nltk.NaiveBayesClassifier.train(features[:train_count])</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> classifier.show_most_informative_features(<span class="dv">10</span>)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;&gt;&gt;</span> nltk.classify.accuracy(classifier, features[train_count:])</span></code></pre></div>
-<ol start="4" type="1">
-<li><p>This code is simply a starting point for exploration. What other
-features can you think of and implement to improve accuracy? How does
-the accuracy improve with different splits? Try to implement other
-classifiers and see how they perform on this dataset. Are there other
-lexical resources/corpora within NLTK or from other sources that can
-improve your results? What is the best accuracy you can get?</p></li>
-<li><p>With your group, write a roughly 5-page paper (no longer than 10
-pages) describing your goals, data, process, and results. This paper
-should include relevant linguistic information and citations for your
-sources. Submit the paper as a PDF along with your annotated/commented
-Python code in a Github repository. The PDF should also be submitted via
-TurnItIn.</p></li>
-</ol>
+<h3 id="predict-tags-for-the-taggedpbc-corpus">Predict tags for the
+<em>taggedPBC</em> corpus</h3>
+<ul>
+<li><p>Using the POS tagger that you trained, predict tags for the
+verses in the <em>taggedPBC</em> for the language that you chose. Code
+is included to illustrate the basics of this process.</p></li>
+<li><p>Compare the result with the initial state of the corpus, by
+examining the number/type of each POS tag in your final corpus. Was your
+POS-tagger able to increase the number of identified items in a given
+word class? Was it able to identify a larger number of classes?</p></li>
+</ul>
+<h3 id="output">Output</h3>
+<p>Your final repository should include:</p>
+<ul>
+<li><p>code that trains a tagger on existing data, then parses the
+(unseen) “gold standard” data for the language and outputs tagged data,
+evaluating the automatic tags against the known tags of the “gold” data.
+In addition, your code should re-tag the initial corpus and collect
+statistics on the POS tags in both the initial and the resulting
+corpora. Code should be self-contained, i.e. I should be able to run it
+in my terminal and get output</p></li>
+<li><p>a subfolder containing all the data used for training/testing and
+evaluation, with clear names for each file</p></li>
+<li><p>a writeup that lays out the task, process, and results, as well
+as discussion of the challenges, concerns, and potential improvements.
+Your writeup should be 8-10 pages of text, excluding references and
+supplementary material.</p></li>
+</ul>
 </main>
 </body>
 </html>
